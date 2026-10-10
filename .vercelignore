@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+data/
+tests/
+docs/
+models/rollback/
+*.csv
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.bak
+*.bak-*

@@ -19,7 +19,7 @@ from app.priority_api import router as priority_router
 from app.complaints_api import router as complaints_router
 from app.admin_auth_api import router as admin_auth_router
 from app.admin_api import router as admin_router
-from app.database import initialize_database
+from app.database import engine, initialize_database, verify_database_ready
 
 
 logger = logging.getLogger(__name__)
@@ -28,7 +28,10 @@ FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
-    initialize_database()
+    if engine.dialect.name == "postgresql":
+        verify_database_ready()
+    else:
+        initialize_database()
     yield
 
 

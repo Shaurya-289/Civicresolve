@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "functions": {
+    "index.py": {
+      "includeFiles": "{models/**,frontend/**}",
+      "excludeFiles": "{tests/**,docs/**,data/**,models/rollback/**,*.csv,*.md,run_civicresolve.ps1,generate_civic_complaints.py,generate_civic_complaints.js,train_models.py}"
+    }
+  }
+}

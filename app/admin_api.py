@@ -12,7 +12,7 @@ from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
 
 from app.complaint_service import complaint_detail, complaint_summary, timestamp_utc
-from app.database import get_session
+from app.database import begin_serialized_write, get_session
 from app.db_models import (
     Administrator, AuditEvent, BudgetPolicy, Complaint, DuplicateReview, PopulationDecision, TrackingCredential,
     Recommendation, RecommendationReview, Resource, ResourceAllocation, StatusEvent, utc_now,
@@ -293,8 +293,7 @@ def decide_population(
     request_key: str = Header(alias="Idempotency-Key", min_length=8, max_length=128),
     session: Session = Depends(get_session), admin: Administrator = Depends(current_admin),
 ):
-    session.commit()
-    session.connection().exec_driver_sql("BEGIN IMMEDIATE")
+    begin_serialized_write(session)
     try:
         existing = session.scalar(select(PopulationDecision).where(PopulationDecision.request_key == request_key))
         if existing:
@@ -364,8 +363,7 @@ def add_demo_resources(session: Session = Depends(get_session), admin: Administr
         ("demo-service-truck", "Service truck", "equipment", 5, 2500),
         ("demo-repair-kit", "Repair kit", "materials", 20, 700),
     )
-    session.commit()
-    session.connection().exec_driver_sql("BEGIN IMMEDIATE")
+    begin_serialized_write(session)
     try:
         added = 0
         for resource_id, name, kind, quantity, cost in catalog:
@@ -387,6 +385,7 @@ def add_demo_resources(session: Session = Depends(get_session), admin: Administr
 def upsert_resource(resource_id: str, body: ResourceInput, session: Session = Depends(get_session), admin: Administrator = Depends(current_admin)):
     if resource_id != body.id:
         raise HTTPException(422, detail="Resource ID mismatch")
+    begin_serialized_write(session)
     row = session.get(Resource, resource_id)
     if row is None:
         row = Resource(id=resource_id)
@@ -420,6 +419,7 @@ def get_budget(session: Session = Depends(get_session)):
 
 @router.put("/resources/budget/policy")
 def set_budget(body: BudgetInput, session: Session = Depends(get_session), admin: Administrator = Depends(current_admin)):
+    begin_serialized_write(session)
     row = session.get(BudgetPolicy, 1)
     if row is None:
         row = BudgetPolicy(id=1)
@@ -465,9 +465,8 @@ def allocate(
     request_key: str = Header(alias="Idempotency-Key", min_length=8, max_length=128),
     session: Session = Depends(get_session), admin: Administrator = Depends(current_admin),
 ):
-    # SQLite serializes writers; acquire the write lock before checking stock and idempotency.
-    session.commit()
-    session.connection().exec_driver_sql("BEGIN IMMEDIATE")
+    # Serialize stock and budget checks across concurrent database writers.
+    begin_serialized_write(session)
     try:
         existing = session.scalar(select(ResourceAllocation).where(ResourceAllocation.request_key == request_key))
         if existing:

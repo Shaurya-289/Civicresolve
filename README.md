@@ -38,6 +38,25 @@ Screenshots from the working local website, using synthetic complaints and demo 
 
 ![Resources page with synthetic inventory and budget ceiling](docs/screenshots/07-resource-inventory.jpg)
 
+## Deploy to Vercel with Neon
+
+Vercel runs the existing FastAPI frontend and API through `index.py` on Python 3.12. In the Vercel project, keep **Root Directory** at the repository root and **Framework Preset** on FastAPI. Set these Production environment variables: `DATABASE_URL` (Neon's **pooled** PostgreSQL URL), `GEMINI_API_KEY`, and `GEMINI_MODEL`. The PostgreSQL connection requires TLS. Do not set `COMPLAINT_DB_PATH` on Vercel.
+
+Initialize a **new, empty** Neon database once, from a trusted local PowerShell terminal. The script refuses a database that already contains tables, creates every application table and the tracking secret, then prompts privately for the first administrator ID and password. Run this before using the production site:
+
+```powershell
+cd D:\Hackathon
+npx vercel link
+npx vercel env pull .env.vercel.local --environment=production
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m app.bootstrap_postgres
+Remove-Item -LiteralPath .env.vercel.local
+```
+
+The pulled environment file is Git-ignored and must stay private. If the schema was created but administrator creation failed, run `python -m app.bootstrap_postgres --admin-only` while the same environment file is still present. Do not run bootstrap from a Vercel function or repeat it on a database that already contains records.
+
+After bootstrap, redeploy the latest `main` commit in Vercel's **Deployments** page if the Git import deployed it earlier. Open the deployment URL and check the welcome page, citizen form, administrator login, and a synthetic complaint workflow. Existing local SQLite records are not migrated to Neon. Vercel's filesystem is read-only except for temporary scratch space, so persistent data lives only in Neon. The trained model and frontend files are bundled with the function; the model loads once per worker.
+
 ## Run on Windows
 
 ```powershell
@@ -47,7 +66,7 @@ cd D:\Hackathon
 .\run_civicresolve.ps1
 ```
 
-Choose a unique admin ID and a password of at least 12 characters when prompted; there is no default password. Open `http://127.0.0.1:8000/` for role selection. Citizen pages are at `/citizen`, `/report` and `/track`; the administrator login is at `/portal/admin/login`. `/docs` shows API schemas. For a fresh environment, use Python 3.11+ and install the requirements. The database defaults to `data/complaints.sqlite3`; set `COMPLAINT_DB_PATH` **before** both admin setup and server startup to use another SQLite file. Example: `$env:COMPLAINT_DB_PATH = 'D:\Hackathon\data\demo.sqlite3'`. Do not put a live DB in a publicly served directory.
+Choose a unique admin ID and a password of at least 12 characters when prompted; there is no default password. Open `http://127.0.0.1:8000/` for role selection. Citizen pages are at `/citizen`, `/report` and `/track`; the administrator login is at `/portal/admin/login`. `/docs` shows API schemas. For a fresh environment, use Python 3.11+ and install the requirements. Without `DATABASE_URL`, the database defaults to `data/complaints.sqlite3`; set `COMPLAINT_DB_PATH` **before** both admin setup and server startup to use another SQLite file. Example: `$env:COMPLAINT_DB_PATH = 'D:\Hackathon\data\demo.sqlite3'`. A `DATABASE_URL` in the process or local `.env` takes precedence and selects PostgreSQL. Do not put a live DB in a publicly served directory.
 
 ## Website workflow
 
