@@ -2,6 +2,42 @@
 
 FastAPI + SQLite with a citizen portal and an authenticated administrator portal. Citizen submission persists a report, runs the existing saved ML models, derives conservative recurrence evidence, then runs the deterministic 35/25/15/15/10 priority engine. Gemini is **admin-triggered only**.
 
+## Prototype Preview
+
+Screenshots from the working local website, using synthetic complaints and demo inventory. Private complaint references have been redacted.
+
+### Citizen journey
+
+**Welcome and role selection.** Citizens can report issues; administrators enter their separate workspace.
+
+![CivicResolve welcome page with citizen and administrator role cards](docs/screenshots/01-welcome.png)
+
+**Complaint submission.** The citizen form records the issue, location, duration, and location context.
+
+![Citizen complaint form filled with a synthetic pothole report](docs/screenshots/02-citizen-form.png)
+
+**Submission confirmation.** A saved complaint displays its workflow status and a private reference, redacted here.
+
+![Complaint submission confirmation with its private reference redacted](docs/screenshots/03-submission-confirmation.jpg)
+
+### Administrator workspace
+
+**Complaint dashboard.** Review the live queue with category, severity, priority, and status filters.
+
+![Administrator complaint dashboard showing synthetic reports and priority levels](docs/screenshots/04-admin-dashboard.jpg)
+
+**Complaint overview.** Inspect the report details, priority, and classification before taking action.
+
+![Individual synthetic complaint overview with priority and report details](docs/screenshots/05-complaint-overview.jpg)
+
+**Action & Allocation.** Select resources and review estimated cost against the configured budget.
+
+![Action and Allocation resource selection and budget controls](docs/screenshots/06-action-allocation.png)
+
+**Resource inventory.** Maintain workforce, equipment, materials, and the configured budget ceiling.
+
+![Resources page with synthetic inventory and budget ceiling](docs/screenshots/07-resource-inventory.jpg)
+
 ## Run on Windows
 
 ```powershell
