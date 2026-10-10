@@ -1,0 +1,39 @@
+# Local environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+.pytest_admin_tmp/
+.browser_test/
+.model_check_venv/
+.model_check_tmp/
+.live_test/
+*.log
+*.tmp
+
+# Local configuration, credentials, and private keys
+.env
+.env.*
+!.env.example
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Databases and backups
+data/
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.bak
+*.bak-*
+*.backup
+models/rollback/

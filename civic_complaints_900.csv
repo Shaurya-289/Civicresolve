@@ -1,0 +1,901 @@
+text,category,severity
+"Small pothole on Malviya Nagar Sector 3, mildly bumpy but no danger yet. Block 1.",road_damage,low
+"Small pothole on Mansarovar Sector 7, mildly bumpy but no danger yet. Block 2.",road_damage,low
+"Small pothole on Vaishali Nagar, mildly bumpy but no danger yet. Block 3.",road_damage,low
+"Small pothole on Bagru main road, mildly bumpy but no danger yet. Block 4.",road_damage,low
+"Small pothole on Jagatpura, mildly bumpy but no danger yet. Block 5.",road_damage,low
+"Small pothole on Tonk Road, mildly bumpy but no danger yet. Block 6.",road_damage,low
+"Small pothole on C-Scheme, mildly bumpy but no danger yet. Block 7.",road_damage,low
+"Small pothole on Jhotwara, mildly bumpy but no danger yet. Block 8.",road_damage,low
+"Small pothole on Vidhyadhar Nagar, mildly bumpy but no danger yet. Block 9.",road_damage,low
+"Small pothole on Pratap Nagar, mildly bumpy but no danger yet. Block 10.",road_damage,low
+"Small pothole on Sodala, mildly bumpy but no danger yet. Block 11.",road_damage,low
+"Small pothole on Amer Road, mildly bumpy but no danger yet. Block 12.",road_damage,low
+"Small pothole on Bapu Nagar, mildly bumpy but no danger yet. Block 13.",road_damage,low
+"Small pothole on Sanganer, mildly bumpy but no danger yet. Block 14.",road_damage,low
+"Small pothole on Raja Park, mildly bumpy but no danger yet. Block 15.",road_damage,low
+"Small pothole on Civil Lines, mildly bumpy but no danger yet. Block 16.",road_damage,low
+"Small pothole on Muralipura, mildly bumpy but no danger yet. Block 17.",road_damage,low
+"Small pothole on Sitapura Industrial Area, mildly bumpy but no danger yet. Block 18.",road_damage,low
+"Small pothole on Shastri Nagar, mildly bumpy but no danger yet. Block 19.",road_damage,low
+"Small pothole on Adarsh Nagar, mildly bumpy but no danger yet. Block 20.",road_damage,low
+"Small pothole on Gopalpura bypass, mildly bumpy but no danger yet. Block 21.",road_damage,low
+"Small pothole on Nirman Nagar, mildly bumpy but no danger yet. Block 22.",road_damage,low
+"Small pothole on Ramganj Bazaar, mildly bumpy but no danger yet. Block 23.",road_damage,low
+"Small pothole on Kukas, mildly bumpy but no danger yet. Block 24.",road_damage,low
+"Malviya Nagar Sector 3 ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 1.",road_damage,low
+"Mansarovar Sector 7 ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 2.",road_damage,low
+"Vaishali Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 3.",road_damage,low
+"Bagru main road ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 4.",road_damage,low
+"Jagatpura ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 5.",road_damage,low
+"Tonk Road ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 6.",road_damage,low
+"C-Scheme ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 7.",road_damage,low
+"Jhotwara ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 8.",road_damage,low
+"Vidhyadhar Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 9.",road_damage,low
+"Pratap Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 10.",road_damage,low
+"Sodala ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 11.",road_damage,low
+"Amer Road ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 12.",road_damage,low
+"Bapu Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 13.",road_damage,low
+"Sanganer ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 14.",road_damage,low
+"Raja Park ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 15.",road_damage,low
+"Civil Lines ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 16.",road_damage,low
+"Muralipura ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 17.",road_damage,low
+"Sitapura Industrial Area ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 18.",road_damage,low
+"Shastri Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 19.",road_damage,low
+"Adarsh Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 20.",road_damage,low
+"Gopalpura bypass ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 21.",road_damage,low
+"Nirman Nagar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 22.",road_damage,low
+"Ramganj Bazaar ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 23.",road_damage,low
+"Kukas ki lane mein chota pothole hai, minor issue hai plz patch kar do. Block 24.",road_damage,low
+"Malviya Nagar Sector 3 की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 1।",road_damage,low
+"Mansarovar Sector 7 की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 2।",road_damage,low
+"Vaishali Nagar की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 3।",road_damage,low
+"Bagru main road की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 4।",road_damage,low
+"Jagatpura की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 5।",road_damage,low
+"Tonk Road की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 6।",road_damage,low
+"C-Scheme की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 7।",road_damage,low
+"Jhotwara की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 8।",road_damage,low
+"Vidhyadhar Nagar की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 9।",road_damage,low
+"Pratap Nagar की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 10।",road_damage,low
+"Sodala की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 11।",road_damage,low
+"Amer Road की गली में हल्का गड्ढा है, बस थोड़ी असुविधा होती है। गली नंबर 12।",road_damage,low
+"Deep potholes on Malviya Nagar Sector 3 have damaged scooters for 5 din se, repair pls. Block 1.",road_damage,medium
+"Deep potholes on Mansarovar Sector 7 have damaged scooters for one week, repair pls. Block 2.",road_damage,medium
+"Deep potholes on Vaishali Nagar have damaged scooters for 10 din se, repair pls. Block 3.",road_damage,medium
+"Deep potholes on Bagru main road have damaged scooters for 2 weeks, repair pls. Block 4.",road_damage,medium
+"Deep potholes on Jagatpura have damaged scooters for three days, repair pls. Block 5.",road_damage,medium
+"Deep potholes on Tonk Road have damaged scooters for 15 din se, repair pls. Block 6.",road_damage,medium
+"Deep potholes on C-Scheme have damaged scooters for last Monday, repair pls. Block 7.",road_damage,medium
+"Deep potholes on Jhotwara have damaged scooters for 2 days, repair pls. Block 8.",road_damage,medium
+"Deep potholes on Vidhyadhar Nagar have damaged scooters for 5 din se, repair pls. Block 9.",road_damage,medium
+"Deep potholes on Pratap Nagar have damaged scooters for one week, repair pls. Block 10.",road_damage,medium
+"Deep potholes on Sodala have damaged scooters for 10 din se, repair pls. Block 11.",road_damage,medium
+"Deep potholes on Amer Road have damaged scooters for 2 weeks, repair pls. Block 12.",road_damage,medium
+"Deep potholes on Bapu Nagar have damaged scooters for three days, repair pls. Block 13.",road_damage,medium
+"Deep potholes on Sanganer have damaged scooters for 15 din se, repair pls. Block 14.",road_damage,medium
+"Deep potholes on Raja Park have damaged scooters for last Monday, repair pls. Block 15.",road_damage,medium
+"Deep potholes on Civil Lines have damaged scooters for 2 days, repair pls. Block 16.",road_damage,medium
+"Deep potholes on Muralipura have damaged scooters for 5 din se, repair pls. Block 17.",road_damage,medium
+"Deep potholes on Sitapura Industrial Area have damaged scooters for one week, repair pls. Block 18.",road_damage,medium
+"Deep potholes on Shastri Nagar have damaged scooters for 10 din se, repair pls. Block 19.",road_damage,medium
+"Deep potholes on Adarsh Nagar have damaged scooters for 2 weeks, repair pls. Block 20.",road_damage,medium
+"Deep potholes on Gopalpura bypass have damaged scooters for three days, repair pls. Block 21.",road_damage,medium
+"Deep potholes on Nirman Nagar have damaged scooters for 15 din se, repair pls. Block 22.",road_damage,medium
+"Deep potholes on Ramganj Bazaar have damaged scooters for last Monday, repair pls. Block 23.",road_damage,medium
+"Deep potholes on Kukas have damaged scooters for 2 days, repair pls. Block 24.",road_damage,medium
+"Malviya Nagar Sector 3 ki road bht kharab hai 5 din se se, vehicles zigzag chal rahe hain pls fix. Block 1.",road_damage,medium
+"Mansarovar Sector 7 ki road bht kharab hai one week se, vehicles zigzag chal rahe hain pls fix. Block 2.",road_damage,medium
+"Vaishali Nagar ki road bht kharab hai 10 din se se, vehicles zigzag chal rahe hain pls fix. Block 3.",road_damage,medium
+"Bagru main road ki road bht kharab hai 2 weeks se, vehicles zigzag chal rahe hain pls fix. Block 4.",road_damage,medium
+"Jagatpura ki road bht kharab hai three days se, vehicles zigzag chal rahe hain pls fix. Block 5.",road_damage,medium
+"Tonk Road ki road bht kharab hai 15 din se se, vehicles zigzag chal rahe hain pls fix. Block 6.",road_damage,medium
+"C-Scheme ki road bht kharab hai last Monday se, vehicles zigzag chal rahe hain pls fix. Block 7.",road_damage,medium
+"Jhotwara ki road bht kharab hai 2 days se, vehicles zigzag chal rahe hain pls fix. Block 8.",road_damage,medium
+"Vidhyadhar Nagar ki road bht kharab hai 5 din se se, vehicles zigzag chal rahe hain pls fix. Block 9.",road_damage,medium
+"Pratap Nagar ki road bht kharab hai one week se, vehicles zigzag chal rahe hain pls fix. Block 10.",road_damage,medium
+"Sodala ki road bht kharab hai 10 din se se, vehicles zigzag chal rahe hain pls fix. Block 11.",road_damage,medium
+"Amer Road ki road bht kharab hai 2 weeks se, vehicles zigzag chal rahe hain pls fix. Block 12.",road_damage,medium
+"Bapu Nagar ki road bht kharab hai three days se, vehicles zigzag chal rahe hain pls fix. Block 13.",road_damage,medium
+"Sanganer ki road bht kharab hai 15 din se se, vehicles zigzag chal rahe hain pls fix. Block 14.",road_damage,medium
+"Raja Park ki road bht kharab hai last Monday se, vehicles zigzag chal rahe hain pls fix. Block 15.",road_damage,medium
+"Civil Lines ki road bht kharab hai 2 days se, vehicles zigzag chal rahe hain pls fix. Block 16.",road_damage,medium
+"Muralipura ki road bht kharab hai 5 din se se, vehicles zigzag chal rahe hain pls fix. Block 17.",road_damage,medium
+"Sitapura Industrial Area ki road bht kharab hai one week se, vehicles zigzag chal rahe hain pls fix. Block 18.",road_damage,medium
+"Shastri Nagar ki road bht kharab hai 10 din se se, vehicles zigzag chal rahe hain pls fix. Block 19.",road_damage,medium
+"Adarsh Nagar ki road bht kharab hai 2 weeks se, vehicles zigzag chal rahe hain pls fix. Block 20.",road_damage,medium
+"Gopalpura bypass ki road bht kharab hai three days se, vehicles zigzag chal rahe hain pls fix. Block 21.",road_damage,medium
+"Nirman Nagar ki road bht kharab hai 15 din se se, vehicles zigzag chal rahe hain pls fix. Block 22.",road_damage,medium
+"Ramganj Bazaar ki road bht kharab hai last Monday se, vehicles zigzag chal rahe hain pls fix. Block 23.",road_damage,medium
+"Kukas ki road bht kharab hai 2 days se, vehicles zigzag chal rahe hain pls fix. Block 24.",road_damage,medium
+"Malviya Nagar Sector 3 पर बड़े गड्ढे 5 din se से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 1।",road_damage,medium
+"Mansarovar Sector 7 पर बड़े गड्ढे one week से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 2।",road_damage,medium
+"Vaishali Nagar पर बड़े गड्ढे 10 din se से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 3।",road_damage,medium
+"Bagru main road पर बड़े गड्ढे 2 weeks से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 4।",road_damage,medium
+"Jagatpura पर बड़े गड्ढे three days से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 5।",road_damage,medium
+"Tonk Road पर बड़े गड्ढे 15 din se से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 6।",road_damage,medium
+"C-Scheme पर बड़े गड्ढे last Monday से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 7।",road_damage,medium
+"Jhotwara पर बड़े गड्ढे 2 days से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 8।",road_damage,medium
+"Vidhyadhar Nagar पर बड़े गड्ढे 5 din se से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 9।",road_damage,medium
+"Pratap Nagar पर बड़े गड्ढे one week से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 10।",road_damage,medium
+"Sodala पर बड़े गड्ढे 10 din se से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 11।",road_damage,medium
+"Amer Road पर बड़े गड्ढे 2 weeks से हैं, रोज़ वाहन झटके खा रहे हैं। गली नंबर 12।",road_damage,medium
+"Urgent: huge pothole at Malviya Nagar Sector 3 near bus stop; a rider fell this morning. Block 1.",road_damage,high
+"Urgent: huge pothole at Mansarovar Sector 7 near anganwadi; a rider fell this morning. Block 2.",road_damage,high
+"Urgent: huge pothole at Vaishali Nagar near market gate; a rider fell this morning. Block 3.",road_damage,high
+"Urgent: huge pothole at Bagru main road near clinic; a rider fell this morning. Block 4.",road_damage,high
+"Urgent: huge pothole at Jagatpura near metro station; a rider fell this morning. Block 5.",road_damage,high
+"Urgent: huge pothole at Tonk Road near temple crossing; a rider fell this morning. Block 6.",road_damage,high
+"Urgent: huge pothole at C-Scheme near government school; a rider fell this morning. Block 7.",road_damage,high
+"Urgent: huge pothole at Jhotwara near community hospital; a rider fell this morning. Block 8.",road_damage,high
+"Urgent: huge pothole at Vidhyadhar Nagar near bus stop; a rider fell this morning. Block 9.",road_damage,high
+"Urgent: huge pothole at Pratap Nagar near anganwadi; a rider fell this morning. Block 10.",road_damage,high
+"Urgent: huge pothole at Sodala near market gate; a rider fell this morning. Block 11.",road_damage,high
+"Urgent: huge pothole at Amer Road near clinic; a rider fell this morning. Block 12.",road_damage,high
+"Urgent: huge pothole at Bapu Nagar near metro station; a rider fell this morning. Block 13.",road_damage,high
+"Urgent: huge pothole at Sanganer near temple crossing; a rider fell this morning. Block 14.",road_damage,high
+"Urgent: huge pothole at Raja Park near government school; a rider fell this morning. Block 15.",road_damage,high
+"Urgent: huge pothole at Civil Lines near community hospital; a rider fell this morning. Block 16.",road_damage,high
+"Urgent: huge pothole at Muralipura near bus stop; a rider fell this morning. Block 17.",road_damage,high
+"Urgent: huge pothole at Sitapura Industrial Area near anganwadi; a rider fell this morning. Block 18.",road_damage,high
+"Urgent: huge pothole at Shastri Nagar near market gate; a rider fell this morning. Block 19.",road_damage,high
+"Urgent: huge pothole at Adarsh Nagar near clinic; a rider fell this morning. Block 20.",road_damage,high
+"Urgent: huge pothole at Gopalpura bypass near metro station; a rider fell this morning. Block 21.",road_damage,high
+"Urgent: huge pothole at Nirman Nagar near temple crossing; a rider fell this morning. Block 22.",road_damage,high
+"Urgent: huge pothole at Ramganj Bazaar near government school; a rider fell this morning. Block 23.",road_damage,high
+"Urgent: huge pothole at Kukas near community hospital; a rider fell this morning. Block 24.",road_damage,high
+"Urgent plz, Malviya Nagar Sector 3 par deep gadda hai near bus stop, ek bike gir chuki hai. Block 1.",road_damage,high
+"Urgent plz, Mansarovar Sector 7 par deep gadda hai near anganwadi, ek bike gir chuki hai. Block 2.",road_damage,high
+"Urgent plz, Vaishali Nagar par deep gadda hai near market gate, ek bike gir chuki hai. Block 3.",road_damage,high
+"Urgent plz, Bagru main road par deep gadda hai near clinic, ek bike gir chuki hai. Block 4.",road_damage,high
+"Urgent plz, Jagatpura par deep gadda hai near metro station, ek bike gir chuki hai. Block 5.",road_damage,high
+"Urgent plz, Tonk Road par deep gadda hai near temple crossing, ek bike gir chuki hai. Block 6.",road_damage,high
+"Urgent plz, C-Scheme par deep gadda hai near government school, ek bike gir chuki hai. Block 7.",road_damage,high
+"Urgent plz, Jhotwara par deep gadda hai near community hospital, ek bike gir chuki hai. Block 8.",road_damage,high
+"Urgent plz, Vidhyadhar Nagar par deep gadda hai near bus stop, ek bike gir chuki hai. Block 9.",road_damage,high
+"Urgent plz, Pratap Nagar par deep gadda hai near anganwadi, ek bike gir chuki hai. Block 10.",road_damage,high
+"Urgent plz, Sodala par deep gadda hai near market gate, ek bike gir chuki hai. Block 11.",road_damage,high
+"Urgent plz, Amer Road par deep gadda hai near clinic, ek bike gir chuki hai. Block 12.",road_damage,high
+"Urgent plz, Bapu Nagar par deep gadda hai near metro station, ek bike gir chuki hai. Block 13.",road_damage,high
+"Urgent plz, Sanganer par deep gadda hai near temple crossing, ek bike gir chuki hai. Block 14.",road_damage,high
+"Urgent plz, Raja Park par deep gadda hai near government school, ek bike gir chuki hai. Block 15.",road_damage,high
+"Urgent plz, Civil Lines par deep gadda hai near community hospital, ek bike gir chuki hai. Block 16.",road_damage,high
+"Urgent plz, Muralipura par deep gadda hai near bus stop, ek bike gir chuki hai. Block 17.",road_damage,high
+"Urgent plz, Sitapura Industrial Area par deep gadda hai near anganwadi, ek bike gir chuki hai. Block 18.",road_damage,high
+"Urgent plz, Shastri Nagar par deep gadda hai near market gate, ek bike gir chuki hai. Block 19.",road_damage,high
+"Urgent plz, Adarsh Nagar par deep gadda hai near clinic, ek bike gir chuki hai. Block 20.",road_damage,high
+"Urgent plz, Gopalpura bypass par deep gadda hai near metro station, ek bike gir chuki hai. Block 21.",road_damage,high
+"Urgent plz, Nirman Nagar par deep gadda hai near temple crossing, ek bike gir chuki hai. Block 22.",road_damage,high
+"Urgent plz, Ramganj Bazaar par deep gadda hai near government school, ek bike gir chuki hai. Block 23.",road_damage,high
+"Urgent plz, Kukas par deep gadda hai near community hospital, ek bike gir chuki hai. Block 24.",road_damage,high
+"तुरंत मदद चाहिए, Malviya Nagar Sector 3 के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 1।",road_damage,high
+"तुरंत मदद चाहिए, Mansarovar Sector 7 के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 2।",road_damage,high
+"तुरंत मदद चाहिए, Vaishali Nagar के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 3।",road_damage,high
+"तुरंत मदद चाहिए, Bagru main road के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 4।",road_damage,high
+"तुरंत मदद चाहिए, Jagatpura के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 5।",road_damage,high
+"तुरंत मदद चाहिए, Tonk Road के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 6।",road_damage,high
+"तुरंत मदद चाहिए, C-Scheme के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 7।",road_damage,high
+"तुरंत मदद चाहिए, Jhotwara के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 8।",road_damage,high
+"तुरंत मदद चाहिए, Vidhyadhar Nagar के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 9।",road_damage,high
+"तुरंत मदद चाहिए, Pratap Nagar के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 10।",road_damage,high
+"तुरंत मदद चाहिए, Sodala के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 11।",road_damage,high
+"तुरंत मदद चाहिए, Amer Road के पास गहरा गड्ढा है और बाइक गिर रही हैं। गली नंबर 12।",road_damage,high
+"One lamp near Malviya Nagar Sector 3 flickers occasionally; please check it when possible. Block 1.",streetlight,low
+"One lamp near Mansarovar Sector 7 flickers occasionally; please check it when possible. Block 2.",streetlight,low
+"One lamp near Vaishali Nagar flickers occasionally; please check it when possible. Block 3.",streetlight,low
+"One lamp near Bagru main road flickers occasionally; please check it when possible. Block 4.",streetlight,low
+"One lamp near Jagatpura flickers occasionally; please check it when possible. Block 5.",streetlight,low
+"One lamp near Tonk Road flickers occasionally; please check it when possible. Block 6.",streetlight,low
+"One lamp near C-Scheme flickers occasionally; please check it when possible. Block 7.",streetlight,low
+"One lamp near Jhotwara flickers occasionally; please check it when possible. Block 8.",streetlight,low
+"One lamp near Vidhyadhar Nagar flickers occasionally; please check it when possible. Block 9.",streetlight,low
+"One lamp near Pratap Nagar flickers occasionally; please check it when possible. Block 10.",streetlight,low
+"One lamp near Sodala flickers occasionally; please check it when possible. Block 11.",streetlight,low
+"One lamp near Amer Road flickers occasionally; please check it when possible. Block 12.",streetlight,low
+"One lamp near Bapu Nagar flickers occasionally; please check it when possible. Block 13.",streetlight,low
+"One lamp near Sanganer flickers occasionally; please check it when possible. Block 14.",streetlight,low
+"One lamp near Raja Park flickers occasionally; please check it when possible. Block 15.",streetlight,low
+"One lamp near Civil Lines flickers occasionally; please check it when possible. Block 16.",streetlight,low
+"One lamp near Muralipura flickers occasionally; please check it when possible. Block 17.",streetlight,low
+"One lamp near Sitapura Industrial Area flickers occasionally; please check it when possible. Block 18.",streetlight,low
+"One lamp near Shastri Nagar flickers occasionally; please check it when possible. Block 19.",streetlight,low
+"One lamp near Adarsh Nagar flickers occasionally; please check it when possible. Block 20.",streetlight,low
+"One lamp near Gopalpura bypass flickers occasionally; please check it when possible. Block 21.",streetlight,low
+"One lamp near Nirman Nagar flickers occasionally; please check it when possible. Block 22.",streetlight,low
+"One lamp near Ramganj Bazaar flickers occasionally; please check it when possible. Block 23.",streetlight,low
+"One lamp near Kukas flickers occasionally; please check it when possible. Block 24.",streetlight,low
+"Malviya Nagar Sector 3 ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 1.",streetlight,low
+"Mansarovar Sector 7 ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 2.",streetlight,low
+"Vaishali Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 3.",streetlight,low
+"Bagru main road ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 4.",streetlight,low
+"Jagatpura ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 5.",streetlight,low
+"Tonk Road ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 6.",streetlight,low
+"C-Scheme ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 7.",streetlight,low
+"Jhotwara ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 8.",streetlight,low
+"Vidhyadhar Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 9.",streetlight,low
+"Pratap Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 10.",streetlight,low
+"Sodala ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 11.",streetlight,low
+"Amer Road ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 12.",streetlight,low
+"Bapu Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 13.",streetlight,low
+"Sanganer ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 14.",streetlight,low
+"Raja Park ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 15.",streetlight,low
+"Civil Lines ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 16.",streetlight,low
+"Muralipura ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 17.",streetlight,low
+"Sitapura Industrial Area ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 18.",streetlight,low
+"Shastri Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 19.",streetlight,low
+"Adarsh Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 20.",streetlight,low
+"Gopalpura bypass ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 21.",streetlight,low
+"Nirman Nagar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 22.",streetlight,low
+"Ramganj Bazaar ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 23.",streetlight,low
+"Kukas ki ek light blink kar rahi hai, koi danger nahi but pls check. Block 24.",streetlight,low
+"Malviya Nagar Sector 3 के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 1।",streetlight,low
+"Mansarovar Sector 7 के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 2।",streetlight,low
+"Vaishali Nagar के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 3।",streetlight,low
+"Bagru main road के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 4।",streetlight,low
+"Jagatpura के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 5।",streetlight,low
+"Tonk Road के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 6।",streetlight,low
+"C-Scheme के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 7।",streetlight,low
+"Jhotwara के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 8।",streetlight,low
+"Vidhyadhar Nagar के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 9।",streetlight,low
+"Pratap Nagar के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 10।",streetlight,low
+"Sodala के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 11।",streetlight,low
+"Amer Road के पास एक स्ट्रीट लाइट टिमटिमा रही है, कृपया देख लें। गली नंबर 12।",streetlight,low
+"Three streetlights on Malviya Nagar Sector 3 have been off for 5 din se; walking is difficult. Block 1.",streetlight,medium
+"Three streetlights on Mansarovar Sector 7 have been off for one week; walking is difficult. Block 2.",streetlight,medium
+"Three streetlights on Vaishali Nagar have been off for 10 din se; walking is difficult. Block 3.",streetlight,medium
+"Three streetlights on Bagru main road have been off for 2 weeks; walking is difficult. Block 4.",streetlight,medium
+"Three streetlights on Jagatpura have been off for three days; walking is difficult. Block 5.",streetlight,medium
+"Three streetlights on Tonk Road have been off for 15 din se; walking is difficult. Block 6.",streetlight,medium
+"Three streetlights on C-Scheme have been off for last Monday; walking is difficult. Block 7.",streetlight,medium
+"Three streetlights on Jhotwara have been off for 2 days; walking is difficult. Block 8.",streetlight,medium
+"Three streetlights on Vidhyadhar Nagar have been off for 5 din se; walking is difficult. Block 9.",streetlight,medium
+"Three streetlights on Pratap Nagar have been off for one week; walking is difficult. Block 10.",streetlight,medium
+"Three streetlights on Sodala have been off for 10 din se; walking is difficult. Block 11.",streetlight,medium
+"Three streetlights on Amer Road have been off for 2 weeks; walking is difficult. Block 12.",streetlight,medium
+"Three streetlights on Bapu Nagar have been off for three days; walking is difficult. Block 13.",streetlight,medium
+"Three streetlights on Sanganer have been off for 15 din se; walking is difficult. Block 14.",streetlight,medium
+"Three streetlights on Raja Park have been off for last Monday; walking is difficult. Block 15.",streetlight,medium
+"Three streetlights on Civil Lines have been off for 2 days; walking is difficult. Block 16.",streetlight,medium
+"Three streetlights on Muralipura have been off for 5 din se; walking is difficult. Block 17.",streetlight,medium
+"Three streetlights on Sitapura Industrial Area have been off for one week; walking is difficult. Block 18.",streetlight,medium
+"Three streetlights on Shastri Nagar have been off for 10 din se; walking is difficult. Block 19.",streetlight,medium
+"Three streetlights on Adarsh Nagar have been off for 2 weeks; walking is difficult. Block 20.",streetlight,medium
+"Three streetlights on Gopalpura bypass have been off for three days; walking is difficult. Block 21.",streetlight,medium
+"Three streetlights on Nirman Nagar have been off for 15 din se; walking is difficult. Block 22.",streetlight,medium
+"Three streetlights on Ramganj Bazaar have been off for last Monday; walking is difficult. Block 23.",streetlight,medium
+"Three streetlights on Kukas have been off for 2 days; walking is difficult. Block 24.",streetlight,medium
+"Malviya Nagar Sector 3 ki streetlights 5 din se se band hain, raat ko torch use karni padti hai. Block 1.",streetlight,medium
+"Mansarovar Sector 7 ki streetlights one week se band hain, raat ko torch use karni padti hai. Block 2.",streetlight,medium
+"Vaishali Nagar ki streetlights 10 din se se band hain, raat ko torch use karni padti hai. Block 3.",streetlight,medium
+"Bagru main road ki streetlights 2 weeks se band hain, raat ko torch use karni padti hai. Block 4.",streetlight,medium
+"Jagatpura ki streetlights three days se band hain, raat ko torch use karni padti hai. Block 5.",streetlight,medium
+"Tonk Road ki streetlights 15 din se se band hain, raat ko torch use karni padti hai. Block 6.",streetlight,medium
+"C-Scheme ki streetlights last Monday se band hain, raat ko torch use karni padti hai. Block 7.",streetlight,medium
+"Jhotwara ki streetlights 2 days se band hain, raat ko torch use karni padti hai. Block 8.",streetlight,medium
+"Vidhyadhar Nagar ki streetlights 5 din se se band hain, raat ko torch use karni padti hai. Block 9.",streetlight,medium
+"Pratap Nagar ki streetlights one week se band hain, raat ko torch use karni padti hai. Block 10.",streetlight,medium
+"Sodala ki streetlights 10 din se se band hain, raat ko torch use karni padti hai. Block 11.",streetlight,medium
+"Amer Road ki streetlights 2 weeks se band hain, raat ko torch use karni padti hai. Block 12.",streetlight,medium
+"Bapu Nagar ki streetlights three days se band hain, raat ko torch use karni padti hai. Block 13.",streetlight,medium
+"Sanganer ki streetlights 15 din se se band hain, raat ko torch use karni padti hai. Block 14.",streetlight,medium
+"Raja Park ki streetlights last Monday se band hain, raat ko torch use karni padti hai. Block 15.",streetlight,medium
+"Civil Lines ki streetlights 2 days se band hain, raat ko torch use karni padti hai. Block 16.",streetlight,medium
+"Muralipura ki streetlights 5 din se se band hain, raat ko torch use karni padti hai. Block 17.",streetlight,medium
+"Sitapura Industrial Area ki streetlights one week se band hain, raat ko torch use karni padti hai. Block 18.",streetlight,medium
+"Shastri Nagar ki streetlights 10 din se se band hain, raat ko torch use karni padti hai. Block 19.",streetlight,medium
+"Adarsh Nagar ki streetlights 2 weeks se band hain, raat ko torch use karni padti hai. Block 20.",streetlight,medium
+"Gopalpura bypass ki streetlights three days se band hain, raat ko torch use karni padti hai. Block 21.",streetlight,medium
+"Nirman Nagar ki streetlights 15 din se se band hain, raat ko torch use karni padti hai. Block 22.",streetlight,medium
+"Ramganj Bazaar ki streetlights last Monday se band hain, raat ko torch use karni padti hai. Block 23.",streetlight,medium
+"Kukas ki streetlights 2 days se band hain, raat ko torch use karni padti hai. Block 24.",streetlight,medium
+"Malviya Nagar Sector 3 की कई स्ट्रीट लाइट 5 din se से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 1।",streetlight,medium
+"Mansarovar Sector 7 की कई स्ट्रीट लाइट one week से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 2।",streetlight,medium
+"Vaishali Nagar की कई स्ट्रीट लाइट 10 din se से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 3।",streetlight,medium
+"Bagru main road की कई स्ट्रीट लाइट 2 weeks से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 4।",streetlight,medium
+"Jagatpura की कई स्ट्रीट लाइट three days से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 5।",streetlight,medium
+"Tonk Road की कई स्ट्रीट लाइट 15 din se से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 6।",streetlight,medium
+"C-Scheme की कई स्ट्रीट लाइट last Monday से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 7।",streetlight,medium
+"Jhotwara की कई स्ट्रीट लाइट 2 days से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 8।",streetlight,medium
+"Vidhyadhar Nagar की कई स्ट्रीट लाइट 5 din se से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 9।",streetlight,medium
+"Pratap Nagar की कई स्ट्रीट लाइट one week से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 10।",streetlight,medium
+"Sodala की कई स्ट्रीट लाइट 10 din se से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 11।",streetlight,medium
+"Amer Road की कई स्ट्रीट लाइट 2 weeks से बंद हैं, पैदल चलना मुश्किल है। गली नंबर 12।",streetlight,medium
+"Urgent: complete darkness at Malviya Nagar Sector 3 near bus stop; women and students feel unsafe. Block 1.",streetlight,high
+"Urgent: complete darkness at Mansarovar Sector 7 near anganwadi; women and students feel unsafe. Block 2.",streetlight,high
+"Urgent: complete darkness at Vaishali Nagar near market gate; women and students feel unsafe. Block 3.",streetlight,high
+"Urgent: complete darkness at Bagru main road near clinic; women and students feel unsafe. Block 4.",streetlight,high
+"Urgent: complete darkness at Jagatpura near metro station; women and students feel unsafe. Block 5.",streetlight,high
+"Urgent: complete darkness at Tonk Road near temple crossing; women and students feel unsafe. Block 6.",streetlight,high
+"Urgent: complete darkness at C-Scheme near government school; women and students feel unsafe. Block 7.",streetlight,high
+"Urgent: complete darkness at Jhotwara near community hospital; women and students feel unsafe. Block 8.",streetlight,high
+"Urgent: complete darkness at Vidhyadhar Nagar near bus stop; women and students feel unsafe. Block 9.",streetlight,high
+"Urgent: complete darkness at Pratap Nagar near anganwadi; women and students feel unsafe. Block 10.",streetlight,high
+"Urgent: complete darkness at Sodala near market gate; women and students feel unsafe. Block 11.",streetlight,high
+"Urgent: complete darkness at Amer Road near clinic; women and students feel unsafe. Block 12.",streetlight,high
+"Urgent: complete darkness at Bapu Nagar near metro station; women and students feel unsafe. Block 13.",streetlight,high
+"Urgent: complete darkness at Sanganer near temple crossing; women and students feel unsafe. Block 14.",streetlight,high
+"Urgent: complete darkness at Raja Park near government school; women and students feel unsafe. Block 15.",streetlight,high
+"Urgent: complete darkness at Civil Lines near community hospital; women and students feel unsafe. Block 16.",streetlight,high
+"Urgent: complete darkness at Muralipura near bus stop; women and students feel unsafe. Block 17.",streetlight,high
+"Urgent: complete darkness at Sitapura Industrial Area near anganwadi; women and students feel unsafe. Block 18.",streetlight,high
+"Urgent: complete darkness at Shastri Nagar near market gate; women and students feel unsafe. Block 19.",streetlight,high
+"Urgent: complete darkness at Adarsh Nagar near clinic; women and students feel unsafe. Block 20.",streetlight,high
+"Urgent: complete darkness at Gopalpura bypass near metro station; women and students feel unsafe. Block 21.",streetlight,high
+"Urgent: complete darkness at Nirman Nagar near temple crossing; women and students feel unsafe. Block 22.",streetlight,high
+"Urgent: complete darkness at Ramganj Bazaar near government school; women and students feel unsafe. Block 23.",streetlight,high
+"Urgent: complete darkness at Kukas near community hospital; women and students feel unsafe. Block 24.",streetlight,high
+"Urgent: Malviya Nagar Sector 3 near bus stop pura dark hai, students ko unsafe feel hota hai. Block 1.",streetlight,high
+"Urgent: Mansarovar Sector 7 near anganwadi pura dark hai, students ko unsafe feel hota hai. Block 2.",streetlight,high
+"Urgent: Vaishali Nagar near market gate pura dark hai, students ko unsafe feel hota hai. Block 3.",streetlight,high
+"Urgent: Bagru main road near clinic pura dark hai, students ko unsafe feel hota hai. Block 4.",streetlight,high
+"Urgent: Jagatpura near metro station pura dark hai, students ko unsafe feel hota hai. Block 5.",streetlight,high
+"Urgent: Tonk Road near temple crossing pura dark hai, students ko unsafe feel hota hai. Block 6.",streetlight,high
+"Urgent: C-Scheme near government school pura dark hai, students ko unsafe feel hota hai. Block 7.",streetlight,high
+"Urgent: Jhotwara near community hospital pura dark hai, students ko unsafe feel hota hai. Block 8.",streetlight,high
+"Urgent: Vidhyadhar Nagar near bus stop pura dark hai, students ko unsafe feel hota hai. Block 9.",streetlight,high
+"Urgent: Pratap Nagar near anganwadi pura dark hai, students ko unsafe feel hota hai. Block 10.",streetlight,high
+"Urgent: Sodala near market gate pura dark hai, students ko unsafe feel hota hai. Block 11.",streetlight,high
+"Urgent: Amer Road near clinic pura dark hai, students ko unsafe feel hota hai. Block 12.",streetlight,high
+"Urgent: Bapu Nagar near metro station pura dark hai, students ko unsafe feel hota hai. Block 13.",streetlight,high
+"Urgent: Sanganer near temple crossing pura dark hai, students ko unsafe feel hota hai. Block 14.",streetlight,high
+"Urgent: Raja Park near government school pura dark hai, students ko unsafe feel hota hai. Block 15.",streetlight,high
+"Urgent: Civil Lines near community hospital pura dark hai, students ko unsafe feel hota hai. Block 16.",streetlight,high
+"Urgent: Muralipura near bus stop pura dark hai, students ko unsafe feel hota hai. Block 17.",streetlight,high
+"Urgent: Sitapura Industrial Area near anganwadi pura dark hai, students ko unsafe feel hota hai. Block 18.",streetlight,high
+"Urgent: Shastri Nagar near market gate pura dark hai, students ko unsafe feel hota hai. Block 19.",streetlight,high
+"Urgent: Adarsh Nagar near clinic pura dark hai, students ko unsafe feel hota hai. Block 20.",streetlight,high
+"Urgent: Gopalpura bypass near metro station pura dark hai, students ko unsafe feel hota hai. Block 21.",streetlight,high
+"Urgent: Nirman Nagar near temple crossing pura dark hai, students ko unsafe feel hota hai. Block 22.",streetlight,high
+"Urgent: Ramganj Bazaar near government school pura dark hai, students ko unsafe feel hota hai. Block 23.",streetlight,high
+"Urgent: Kukas near community hospital pura dark hai, students ko unsafe feel hota hai. Block 24.",streetlight,high
+"तुरंत लाइट ठीक करें, Malviya Nagar Sector 3 में bus stop के पास बहुत अंधेरा है। गली नंबर 1।",streetlight,high
+"तुरंत लाइट ठीक करें, Mansarovar Sector 7 में anganwadi के पास बहुत अंधेरा है। गली नंबर 2।",streetlight,high
+"तुरंत लाइट ठीक करें, Vaishali Nagar में market gate के पास बहुत अंधेरा है। गली नंबर 3।",streetlight,high
+"तुरंत लाइट ठीक करें, Bagru main road में clinic के पास बहुत अंधेरा है। गली नंबर 4।",streetlight,high
+"तुरंत लाइट ठीक करें, Jagatpura में metro station के पास बहुत अंधेरा है। गली नंबर 5।",streetlight,high
+"तुरंत लाइट ठीक करें, Tonk Road में temple crossing के पास बहुत अंधेरा है। गली नंबर 6।",streetlight,high
+"तुरंत लाइट ठीक करें, C-Scheme में government school के पास बहुत अंधेरा है। गली नंबर 7।",streetlight,high
+"तुरंत लाइट ठीक करें, Jhotwara में community hospital के पास बहुत अंधेरा है। गली नंबर 8।",streetlight,high
+"तुरंत लाइट ठीक करें, Vidhyadhar Nagar में bus stop के पास बहुत अंधेरा है। गली नंबर 9।",streetlight,high
+"तुरंत लाइट ठीक करें, Pratap Nagar में anganwadi के पास बहुत अंधेरा है। गली नंबर 10।",streetlight,high
+"तुरंत लाइट ठीक करें, Sodala में market gate के पास बहुत अंधेरा है। गली नंबर 11।",streetlight,high
+"तुरंत लाइट ठीक करें, Amer Road में clinic के पास बहुत अंधेरा है। गली नंबर 12।",streetlight,high
+"Drain cover near Malviya Nagar Sector 3 is clogged with leaves; water drains slowly. Block 1.",drainage,low
+"Drain cover near Mansarovar Sector 7 is clogged with leaves; water drains slowly. Block 2.",drainage,low
+"Drain cover near Vaishali Nagar is clogged with leaves; water drains slowly. Block 3.",drainage,low
+"Drain cover near Bagru main road is clogged with leaves; water drains slowly. Block 4.",drainage,low
+"Drain cover near Jagatpura is clogged with leaves; water drains slowly. Block 5.",drainage,low
+"Drain cover near Tonk Road is clogged with leaves; water drains slowly. Block 6.",drainage,low
+"Drain cover near C-Scheme is clogged with leaves; water drains slowly. Block 7.",drainage,low
+"Drain cover near Jhotwara is clogged with leaves; water drains slowly. Block 8.",drainage,low
+"Drain cover near Vidhyadhar Nagar is clogged with leaves; water drains slowly. Block 9.",drainage,low
+"Drain cover near Pratap Nagar is clogged with leaves; water drains slowly. Block 10.",drainage,low
+"Drain cover near Sodala is clogged with leaves; water drains slowly. Block 11.",drainage,low
+"Drain cover near Amer Road is clogged with leaves; water drains slowly. Block 12.",drainage,low
+"Drain cover near Bapu Nagar is clogged with leaves; water drains slowly. Block 13.",drainage,low
+"Drain cover near Sanganer is clogged with leaves; water drains slowly. Block 14.",drainage,low
+"Drain cover near Raja Park is clogged with leaves; water drains slowly. Block 15.",drainage,low
+"Drain cover near Civil Lines is clogged with leaves; water drains slowly. Block 16.",drainage,low
+"Drain cover near Muralipura is clogged with leaves; water drains slowly. Block 17.",drainage,low
+"Drain cover near Sitapura Industrial Area is clogged with leaves; water drains slowly. Block 18.",drainage,low
+"Drain cover near Shastri Nagar is clogged with leaves; water drains slowly. Block 19.",drainage,low
+"Drain cover near Adarsh Nagar is clogged with leaves; water drains slowly. Block 20.",drainage,low
+"Drain cover near Gopalpura bypass is clogged with leaves; water drains slowly. Block 21.",drainage,low
+"Drain cover near Nirman Nagar is clogged with leaves; water drains slowly. Block 22.",drainage,low
+"Drain cover near Ramganj Bazaar is clogged with leaves; water drains slowly. Block 23.",drainage,low
+"Drain cover near Kukas is clogged with leaves; water drains slowly. Block 24.",drainage,low
+"Malviya Nagar Sector 3 ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 1.",drainage,low
+"Mansarovar Sector 7 ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 2.",drainage,low
+"Vaishali Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 3.",drainage,low
+"Bagru main road ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 4.",drainage,low
+"Jagatpura ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 5.",drainage,low
+"Tonk Road ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 6.",drainage,low
+"C-Scheme ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 7.",drainage,low
+"Jhotwara ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 8.",drainage,low
+"Vidhyadhar Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 9.",drainage,low
+"Pratap Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 10.",drainage,low
+"Sodala ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 11.",drainage,low
+"Amer Road ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 12.",drainage,low
+"Bapu Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 13.",drainage,low
+"Sanganer ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 14.",drainage,low
+"Raja Park ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 15.",drainage,low
+"Civil Lines ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 16.",drainage,low
+"Muralipura ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 17.",drainage,low
+"Sitapura Industrial Area ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 18.",drainage,low
+"Shastri Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 19.",drainage,low
+"Adarsh Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 20.",drainage,low
+"Gopalpura bypass ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 21.",drainage,low
+"Nirman Nagar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 22.",drainage,low
+"Ramganj Bazaar ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 23.",drainage,low
+"Kukas ki naali mein patte jam gaye hain, halka pani rukta hai pls clean. Block 24.",drainage,low
+"Malviya Nagar Sector 3 के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 1।",drainage,low
+"Mansarovar Sector 7 के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 2।",drainage,low
+"Vaishali Nagar के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 3।",drainage,low
+"Bagru main road के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 4।",drainage,low
+"Jagatpura के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 5।",drainage,low
+"Tonk Road के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 6।",drainage,low
+"C-Scheme के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 7।",drainage,low
+"Jhotwara के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 8।",drainage,low
+"Vidhyadhar Nagar के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 9।",drainage,low
+"Pratap Nagar के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 10।",drainage,low
+"Sodala के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 11।",drainage,low
+"Amer Road के पास नाली में पत्ते फँसे हैं, पानी धीरे निकल रहा है। गली नंबर 12।",drainage,low
+"Drain at Malviya Nagar Sector 3 has overflowed for 5 din se, leaving dirty water on the lane. Block 1.",drainage,medium
+"Drain at Mansarovar Sector 7 has overflowed for one week, leaving dirty water on the lane. Block 2.",drainage,medium
+"Drain at Vaishali Nagar has overflowed for 10 din se, leaving dirty water on the lane. Block 3.",drainage,medium
+"Drain at Bagru main road has overflowed for 2 weeks, leaving dirty water on the lane. Block 4.",drainage,medium
+"Drain at Jagatpura has overflowed for three days, leaving dirty water on the lane. Block 5.",drainage,medium
+"Drain at Tonk Road has overflowed for 15 din se, leaving dirty water on the lane. Block 6.",drainage,medium
+"Drain at C-Scheme has overflowed for last Monday, leaving dirty water on the lane. Block 7.",drainage,medium
+"Drain at Jhotwara has overflowed for 2 days, leaving dirty water on the lane. Block 8.",drainage,medium
+"Drain at Vidhyadhar Nagar has overflowed for 5 din se, leaving dirty water on the lane. Block 9.",drainage,medium
+"Drain at Pratap Nagar has overflowed for one week, leaving dirty water on the lane. Block 10.",drainage,medium
+"Drain at Sodala has overflowed for 10 din se, leaving dirty water on the lane. Block 11.",drainage,medium
+"Drain at Amer Road has overflowed for 2 weeks, leaving dirty water on the lane. Block 12.",drainage,medium
+"Drain at Bapu Nagar has overflowed for three days, leaving dirty water on the lane. Block 13.",drainage,medium
+"Drain at Sanganer has overflowed for 15 din se, leaving dirty water on the lane. Block 14.",drainage,medium
+"Drain at Raja Park has overflowed for last Monday, leaving dirty water on the lane. Block 15.",drainage,medium
+"Drain at Civil Lines has overflowed for 2 days, leaving dirty water on the lane. Block 16.",drainage,medium
+"Drain at Muralipura has overflowed for 5 din se, leaving dirty water on the lane. Block 17.",drainage,medium
+"Drain at Sitapura Industrial Area has overflowed for one week, leaving dirty water on the lane. Block 18.",drainage,medium
+"Drain at Shastri Nagar has overflowed for 10 din se, leaving dirty water on the lane. Block 19.",drainage,medium
+"Drain at Adarsh Nagar has overflowed for 2 weeks, leaving dirty water on the lane. Block 20.",drainage,medium
+"Drain at Gopalpura bypass has overflowed for three days, leaving dirty water on the lane. Block 21.",drainage,medium
+"Drain at Nirman Nagar has overflowed for 15 din se, leaving dirty water on the lane. Block 22.",drainage,medium
+"Drain at Ramganj Bazaar has overflowed for last Monday, leaving dirty water on the lane. Block 23.",drainage,medium
+"Drain at Kukas has overflowed for 2 days, leaving dirty water on the lane. Block 24.",drainage,medium
+"Malviya Nagar Sector 3 ki naali 5 din se se choke hai aur ganda pani road pe aa raha hai. Block 1.",drainage,medium
+"Mansarovar Sector 7 ki naali one week se choke hai aur ganda pani road pe aa raha hai. Block 2.",drainage,medium
+"Vaishali Nagar ki naali 10 din se se choke hai aur ganda pani road pe aa raha hai. Block 3.",drainage,medium
+"Bagru main road ki naali 2 weeks se choke hai aur ganda pani road pe aa raha hai. Block 4.",drainage,medium
+"Jagatpura ki naali three days se choke hai aur ganda pani road pe aa raha hai. Block 5.",drainage,medium
+"Tonk Road ki naali 15 din se se choke hai aur ganda pani road pe aa raha hai. Block 6.",drainage,medium
+"C-Scheme ki naali last Monday se choke hai aur ganda pani road pe aa raha hai. Block 7.",drainage,medium
+"Jhotwara ki naali 2 days se choke hai aur ganda pani road pe aa raha hai. Block 8.",drainage,medium
+"Vidhyadhar Nagar ki naali 5 din se se choke hai aur ganda pani road pe aa raha hai. Block 9.",drainage,medium
+"Pratap Nagar ki naali one week se choke hai aur ganda pani road pe aa raha hai. Block 10.",drainage,medium
+"Sodala ki naali 10 din se se choke hai aur ganda pani road pe aa raha hai. Block 11.",drainage,medium
+"Amer Road ki naali 2 weeks se choke hai aur ganda pani road pe aa raha hai. Block 12.",drainage,medium
+"Bapu Nagar ki naali three days se choke hai aur ganda pani road pe aa raha hai. Block 13.",drainage,medium
+"Sanganer ki naali 15 din se se choke hai aur ganda pani road pe aa raha hai. Block 14.",drainage,medium
+"Raja Park ki naali last Monday se choke hai aur ganda pani road pe aa raha hai. Block 15.",drainage,medium
+"Civil Lines ki naali 2 days se choke hai aur ganda pani road pe aa raha hai. Block 16.",drainage,medium
+"Muralipura ki naali 5 din se se choke hai aur ganda pani road pe aa raha hai. Block 17.",drainage,medium
+"Sitapura Industrial Area ki naali one week se choke hai aur ganda pani road pe aa raha hai. Block 18.",drainage,medium
+"Shastri Nagar ki naali 10 din se se choke hai aur ganda pani road pe aa raha hai. Block 19.",drainage,medium
+"Adarsh Nagar ki naali 2 weeks se choke hai aur ganda pani road pe aa raha hai. Block 20.",drainage,medium
+"Gopalpura bypass ki naali three days se choke hai aur ganda pani road pe aa raha hai. Block 21.",drainage,medium
+"Nirman Nagar ki naali 15 din se se choke hai aur ganda pani road pe aa raha hai. Block 22.",drainage,medium
+"Ramganj Bazaar ki naali last Monday se choke hai aur ganda pani road pe aa raha hai. Block 23.",drainage,medium
+"Kukas ki naali 2 days se choke hai aur ganda pani road pe aa raha hai. Block 24.",drainage,medium
+"Malviya Nagar Sector 3 की नाली 5 din se से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 1।",drainage,medium
+"Mansarovar Sector 7 की नाली one week से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 2।",drainage,medium
+"Vaishali Nagar की नाली 10 din se से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 3।",drainage,medium
+"Bagru main road की नाली 2 weeks से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 4।",drainage,medium
+"Jagatpura की नाली three days से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 5।",drainage,medium
+"Tonk Road की नाली 15 din se से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 6।",drainage,medium
+"C-Scheme की नाली last Monday से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 7।",drainage,medium
+"Jhotwara की नाली 2 days से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 8।",drainage,medium
+"Vidhyadhar Nagar की नाली 5 din se से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 9।",drainage,medium
+"Pratap Nagar की नाली one week से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 10।",drainage,medium
+"Sodala की नाली 10 din se से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 11।",drainage,medium
+"Amer Road की नाली 2 weeks से उफन रही है, गंदा पानी सड़क पर है। गली नंबर 12।",drainage,medium
+"Urgent health hazard: sewage is overflowing at Malviya Nagar Sector 3 near bus stop. Block 1.",drainage,high
+"Urgent health hazard: sewage is overflowing at Mansarovar Sector 7 near anganwadi. Block 2.",drainage,high
+"Urgent health hazard: sewage is overflowing at Vaishali Nagar near market gate. Block 3.",drainage,high
+"Urgent health hazard: sewage is overflowing at Bagru main road near clinic. Block 4.",drainage,high
+"Urgent health hazard: sewage is overflowing at Jagatpura near metro station. Block 5.",drainage,high
+"Urgent health hazard: sewage is overflowing at Tonk Road near temple crossing. Block 6.",drainage,high
+"Urgent health hazard: sewage is overflowing at C-Scheme near government school. Block 7.",drainage,high
+"Urgent health hazard: sewage is overflowing at Jhotwara near community hospital. Block 8.",drainage,high
+"Urgent health hazard: sewage is overflowing at Vidhyadhar Nagar near bus stop. Block 9.",drainage,high
+"Urgent health hazard: sewage is overflowing at Pratap Nagar near anganwadi. Block 10.",drainage,high
+"Urgent health hazard: sewage is overflowing at Sodala near market gate. Block 11.",drainage,high
+"Urgent health hazard: sewage is overflowing at Amer Road near clinic. Block 12.",drainage,high
+"Urgent health hazard: sewage is overflowing at Bapu Nagar near metro station. Block 13.",drainage,high
+"Urgent health hazard: sewage is overflowing at Sanganer near temple crossing. Block 14.",drainage,high
+"Urgent health hazard: sewage is overflowing at Raja Park near government school. Block 15.",drainage,high
+"Urgent health hazard: sewage is overflowing at Civil Lines near community hospital. Block 16.",drainage,high
+"Urgent health hazard: sewage is overflowing at Muralipura near bus stop. Block 17.",drainage,high
+"Urgent health hazard: sewage is overflowing at Sitapura Industrial Area near anganwadi. Block 18.",drainage,high
+"Urgent health hazard: sewage is overflowing at Shastri Nagar near market gate. Block 19.",drainage,high
+"Urgent health hazard: sewage is overflowing at Adarsh Nagar near clinic. Block 20.",drainage,high
+"Urgent health hazard: sewage is overflowing at Gopalpura bypass near metro station. Block 21.",drainage,high
+"Urgent health hazard: sewage is overflowing at Nirman Nagar near temple crossing. Block 22.",drainage,high
+"Urgent health hazard: sewage is overflowing at Ramganj Bazaar near government school. Block 23.",drainage,high
+"Urgent health hazard: sewage is overflowing at Kukas near community hospital. Block 24.",drainage,high
+"Emergency pls, Malviya Nagar Sector 3 near bus stop sewage overflow ho raha hai, health risk hai. Block 1.",drainage,high
+"Emergency pls, Mansarovar Sector 7 near anganwadi sewage overflow ho raha hai, health risk hai. Block 2.",drainage,high
+"Emergency pls, Vaishali Nagar near market gate sewage overflow ho raha hai, health risk hai. Block 3.",drainage,high
+"Emergency pls, Bagru main road near clinic sewage overflow ho raha hai, health risk hai. Block 4.",drainage,high
+"Emergency pls, Jagatpura near metro station sewage overflow ho raha hai, health risk hai. Block 5.",drainage,high
+"Emergency pls, Tonk Road near temple crossing sewage overflow ho raha hai, health risk hai. Block 6.",drainage,high
+"Emergency pls, C-Scheme near government school sewage overflow ho raha hai, health risk hai. Block 7.",drainage,high
+"Emergency pls, Jhotwara near community hospital sewage overflow ho raha hai, health risk hai. Block 8.",drainage,high
+"Emergency pls, Vidhyadhar Nagar near bus stop sewage overflow ho raha hai, health risk hai. Block 9.",drainage,high
+"Emergency pls, Pratap Nagar near anganwadi sewage overflow ho raha hai, health risk hai. Block 10.",drainage,high
+"Emergency pls, Sodala near market gate sewage overflow ho raha hai, health risk hai. Block 11.",drainage,high
+"Emergency pls, Amer Road near clinic sewage overflow ho raha hai, health risk hai. Block 12.",drainage,high
+"Emergency pls, Bapu Nagar near metro station sewage overflow ho raha hai, health risk hai. Block 13.",drainage,high
+"Emergency pls, Sanganer near temple crossing sewage overflow ho raha hai, health risk hai. Block 14.",drainage,high
+"Emergency pls, Raja Park near government school sewage overflow ho raha hai, health risk hai. Block 15.",drainage,high
+"Emergency pls, Civil Lines near community hospital sewage overflow ho raha hai, health risk hai. Block 16.",drainage,high
+"Emergency pls, Muralipura near bus stop sewage overflow ho raha hai, health risk hai. Block 17.",drainage,high
+"Emergency pls, Sitapura Industrial Area near anganwadi sewage overflow ho raha hai, health risk hai. Block 18.",drainage,high
+"Emergency pls, Shastri Nagar near market gate sewage overflow ho raha hai, health risk hai. Block 19.",drainage,high
+"Emergency pls, Adarsh Nagar near clinic sewage overflow ho raha hai, health risk hai. Block 20.",drainage,high
+"Emergency pls, Gopalpura bypass near metro station sewage overflow ho raha hai, health risk hai. Block 21.",drainage,high
+"Emergency pls, Nirman Nagar near temple crossing sewage overflow ho raha hai, health risk hai. Block 22.",drainage,high
+"Emergency pls, Ramganj Bazaar near government school sewage overflow ho raha hai, health risk hai. Block 23.",drainage,high
+"Emergency pls, Kukas near community hospital sewage overflow ho raha hai, health risk hai. Block 24.",drainage,high
+"तुरंत सफाई चाहिए, Malviya Nagar Sector 3 में bus stop के पास सीवेज बह रहा है। गली नंबर 1।",drainage,high
+"तुरंत सफाई चाहिए, Mansarovar Sector 7 में anganwadi के पास सीवेज बह रहा है। गली नंबर 2।",drainage,high
+"तुरंत सफाई चाहिए, Vaishali Nagar में market gate के पास सीवेज बह रहा है। गली नंबर 3।",drainage,high
+"तुरंत सफाई चाहिए, Bagru main road में clinic के पास सीवेज बह रहा है। गली नंबर 4।",drainage,high
+"तुरंत सफाई चाहिए, Jagatpura में metro station के पास सीवेज बह रहा है। गली नंबर 5।",drainage,high
+"तुरंत सफाई चाहिए, Tonk Road में temple crossing के पास सीवेज बह रहा है। गली नंबर 6।",drainage,high
+"तुरंत सफाई चाहिए, C-Scheme में government school के पास सीवेज बह रहा है। गली नंबर 7।",drainage,high
+"तुरंत सफाई चाहिए, Jhotwara में community hospital के पास सीवेज बह रहा है। गली नंबर 8।",drainage,high
+"तुरंत सफाई चाहिए, Vidhyadhar Nagar में bus stop के पास सीवेज बह रहा है। गली नंबर 9।",drainage,high
+"तुरंत सफाई चाहिए, Pratap Nagar में anganwadi के पास सीवेज बह रहा है। गली नंबर 10।",drainage,high
+"तुरंत सफाई चाहिए, Sodala में market gate के पास सीवेज बह रहा है। गली नंबर 11।",drainage,high
+"तुरंत सफाई चाहिए, Amer Road में clinic के पास सीवेज बह रहा है। गली नंबर 12।",drainage,high
+"A small pipe drip near Malviya Nagar Sector 3 is wasting water slowly, please inspect. Block 1.",water_leak,low
+"A small pipe drip near Mansarovar Sector 7 is wasting water slowly, please inspect. Block 2.",water_leak,low
+"A small pipe drip near Vaishali Nagar is wasting water slowly, please inspect. Block 3.",water_leak,low
+"A small pipe drip near Bagru main road is wasting water slowly, please inspect. Block 4.",water_leak,low
+"A small pipe drip near Jagatpura is wasting water slowly, please inspect. Block 5.",water_leak,low
+"A small pipe drip near Tonk Road is wasting water slowly, please inspect. Block 6.",water_leak,low
+"A small pipe drip near C-Scheme is wasting water slowly, please inspect. Block 7.",water_leak,low
+"A small pipe drip near Jhotwara is wasting water slowly, please inspect. Block 8.",water_leak,low
+"A small pipe drip near Vidhyadhar Nagar is wasting water slowly, please inspect. Block 9.",water_leak,low
+"A small pipe drip near Pratap Nagar is wasting water slowly, please inspect. Block 10.",water_leak,low
+"A small pipe drip near Sodala is wasting water slowly, please inspect. Block 11.",water_leak,low
+"A small pipe drip near Amer Road is wasting water slowly, please inspect. Block 12.",water_leak,low
+"A small pipe drip near Bapu Nagar is wasting water slowly, please inspect. Block 13.",water_leak,low
+"A small pipe drip near Sanganer is wasting water slowly, please inspect. Block 14.",water_leak,low
+"A small pipe drip near Raja Park is wasting water slowly, please inspect. Block 15.",water_leak,low
+"A small pipe drip near Civil Lines is wasting water slowly, please inspect. Block 16.",water_leak,low
+"A small pipe drip near Muralipura is wasting water slowly, please inspect. Block 17.",water_leak,low
+"A small pipe drip near Sitapura Industrial Area is wasting water slowly, please inspect. Block 18.",water_leak,low
+"A small pipe drip near Shastri Nagar is wasting water slowly, please inspect. Block 19.",water_leak,low
+"A small pipe drip near Adarsh Nagar is wasting water slowly, please inspect. Block 20.",water_leak,low
+"A small pipe drip near Gopalpura bypass is wasting water slowly, please inspect. Block 21.",water_leak,low
+"A small pipe drip near Nirman Nagar is wasting water slowly, please inspect. Block 22.",water_leak,low
+"A small pipe drip near Ramganj Bazaar is wasting water slowly, please inspect. Block 23.",water_leak,low
+"A small pipe drip near Kukas is wasting water slowly, please inspect. Block 24.",water_leak,low
+"Malviya Nagar Sector 3 par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 1.",water_leak,low
+"Mansarovar Sector 7 par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 2.",water_leak,low
+"Vaishali Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 3.",water_leak,low
+"Bagru main road par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 4.",water_leak,low
+"Jagatpura par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 5.",water_leak,low
+"Tonk Road par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 6.",water_leak,low
+"C-Scheme par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 7.",water_leak,low
+"Jhotwara par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 8.",water_leak,low
+"Vidhyadhar Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 9.",water_leak,low
+"Pratap Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 10.",water_leak,low
+"Sodala par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 11.",water_leak,low
+"Amer Road par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 12.",water_leak,low
+"Bapu Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 13.",water_leak,low
+"Sanganer par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 14.",water_leak,low
+"Raja Park par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 15.",water_leak,low
+"Civil Lines par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 16.",water_leak,low
+"Muralipura par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 17.",water_leak,low
+"Sitapura Industrial Area par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 18.",water_leak,low
+"Shastri Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 19.",water_leak,low
+"Adarsh Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 20.",water_leak,low
+"Gopalpura bypass par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 21.",water_leak,low
+"Nirman Nagar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 22.",water_leak,low
+"Ramganj Bazaar par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 23.",water_leak,low
+"Kukas par pipe se halka drip ho raha hai, chota leak hai pls dekh lo. Block 24.",water_leak,low
+"Malviya Nagar Sector 3 के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 1।",water_leak,low
+"Mansarovar Sector 7 के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 2।",water_leak,low
+"Vaishali Nagar के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 3।",water_leak,low
+"Bagru main road के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 4।",water_leak,low
+"Jagatpura के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 5।",water_leak,low
+"Tonk Road के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 6।",water_leak,low
+"C-Scheme के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 7।",water_leak,low
+"Jhotwara के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 8।",water_leak,low
+"Vidhyadhar Nagar के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 9।",water_leak,low
+"Pratap Nagar के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 10।",water_leak,low
+"Sodala के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 11।",water_leak,low
+"Amer Road के पास पाइप से हल्का पानी टपक रहा है, कृपया जाँच करें। गली नंबर 12।",water_leak,low
+"Water pipe at Malviya Nagar Sector 3 has been leaking for 5 din se, wasting clean water. Block 1.",water_leak,medium
+"Water pipe at Mansarovar Sector 7 has been leaking for one week, wasting clean water. Block 2.",water_leak,medium
+"Water pipe at Vaishali Nagar has been leaking for 10 din se, wasting clean water. Block 3.",water_leak,medium
+"Water pipe at Bagru main road has been leaking for 2 weeks, wasting clean water. Block 4.",water_leak,medium
+"Water pipe at Jagatpura has been leaking for three days, wasting clean water. Block 5.",water_leak,medium
+"Water pipe at Tonk Road has been leaking for 15 din se, wasting clean water. Block 6.",water_leak,medium
+"Water pipe at C-Scheme has been leaking for last Monday, wasting clean water. Block 7.",water_leak,medium
+"Water pipe at Jhotwara has been leaking for 2 days, wasting clean water. Block 8.",water_leak,medium
+"Water pipe at Vidhyadhar Nagar has been leaking for 5 din se, wasting clean water. Block 9.",water_leak,medium
+"Water pipe at Pratap Nagar has been leaking for one week, wasting clean water. Block 10.",water_leak,medium
+"Water pipe at Sodala has been leaking for 10 din se, wasting clean water. Block 11.",water_leak,medium
+"Water pipe at Amer Road has been leaking for 2 weeks, wasting clean water. Block 12.",water_leak,medium
+"Water pipe at Bapu Nagar has been leaking for three days, wasting clean water. Block 13.",water_leak,medium
+"Water pipe at Sanganer has been leaking for 15 din se, wasting clean water. Block 14.",water_leak,medium
+"Water pipe at Raja Park has been leaking for last Monday, wasting clean water. Block 15.",water_leak,medium
+"Water pipe at Civil Lines has been leaking for 2 days, wasting clean water. Block 16.",water_leak,medium
+"Water pipe at Muralipura has been leaking for 5 din se, wasting clean water. Block 17.",water_leak,medium
+"Water pipe at Sitapura Industrial Area has been leaking for one week, wasting clean water. Block 18.",water_leak,medium
+"Water pipe at Shastri Nagar has been leaking for 10 din se, wasting clean water. Block 19.",water_leak,medium
+"Water pipe at Adarsh Nagar has been leaking for 2 weeks, wasting clean water. Block 20.",water_leak,medium
+"Water pipe at Gopalpura bypass has been leaking for three days, wasting clean water. Block 21.",water_leak,medium
+"Water pipe at Nirman Nagar has been leaking for 15 din se, wasting clean water. Block 22.",water_leak,medium
+"Water pipe at Ramganj Bazaar has been leaking for last Monday, wasting clean water. Block 23.",water_leak,medium
+"Water pipe at Kukas has been leaking for 2 days, wasting clean water. Block 24.",water_leak,medium
+"Malviya Nagar Sector 3 ki pipeline 5 din se se leak hai, pani waste aur road slippery ho rahi. Block 1.",water_leak,medium
+"Mansarovar Sector 7 ki pipeline one week se leak hai, pani waste aur road slippery ho rahi. Block 2.",water_leak,medium
+"Vaishali Nagar ki pipeline 10 din se se leak hai, pani waste aur road slippery ho rahi. Block 3.",water_leak,medium
+"Bagru main road ki pipeline 2 weeks se leak hai, pani waste aur road slippery ho rahi. Block 4.",water_leak,medium
+"Jagatpura ki pipeline three days se leak hai, pani waste aur road slippery ho rahi. Block 5.",water_leak,medium
+"Tonk Road ki pipeline 15 din se se leak hai, pani waste aur road slippery ho rahi. Block 6.",water_leak,medium
+"C-Scheme ki pipeline last Monday se leak hai, pani waste aur road slippery ho rahi. Block 7.",water_leak,medium
+"Jhotwara ki pipeline 2 days se leak hai, pani waste aur road slippery ho rahi. Block 8.",water_leak,medium
+"Vidhyadhar Nagar ki pipeline 5 din se se leak hai, pani waste aur road slippery ho rahi. Block 9.",water_leak,medium
+"Pratap Nagar ki pipeline one week se leak hai, pani waste aur road slippery ho rahi. Block 10.",water_leak,medium
+"Sodala ki pipeline 10 din se se leak hai, pani waste aur road slippery ho rahi. Block 11.",water_leak,medium
+"Amer Road ki pipeline 2 weeks se leak hai, pani waste aur road slippery ho rahi. Block 12.",water_leak,medium
+"Bapu Nagar ki pipeline three days se leak hai, pani waste aur road slippery ho rahi. Block 13.",water_leak,medium
+"Sanganer ki pipeline 15 din se se leak hai, pani waste aur road slippery ho rahi. Block 14.",water_leak,medium
+"Raja Park ki pipeline last Monday se leak hai, pani waste aur road slippery ho rahi. Block 15.",water_leak,medium
+"Civil Lines ki pipeline 2 days se leak hai, pani waste aur road slippery ho rahi. Block 16.",water_leak,medium
+"Muralipura ki pipeline 5 din se se leak hai, pani waste aur road slippery ho rahi. Block 17.",water_leak,medium
+"Sitapura Industrial Area ki pipeline one week se leak hai, pani waste aur road slippery ho rahi. Block 18.",water_leak,medium
+"Shastri Nagar ki pipeline 10 din se se leak hai, pani waste aur road slippery ho rahi. Block 19.",water_leak,medium
+"Adarsh Nagar ki pipeline 2 weeks se leak hai, pani waste aur road slippery ho rahi. Block 20.",water_leak,medium
+"Gopalpura bypass ki pipeline three days se leak hai, pani waste aur road slippery ho rahi. Block 21.",water_leak,medium
+"Nirman Nagar ki pipeline 15 din se se leak hai, pani waste aur road slippery ho rahi. Block 22.",water_leak,medium
+"Ramganj Bazaar ki pipeline last Monday se leak hai, pani waste aur road slippery ho rahi. Block 23.",water_leak,medium
+"Kukas ki pipeline 2 days se leak hai, pani waste aur road slippery ho rahi. Block 24.",water_leak,medium
+"Malviya Nagar Sector 3 की पाइपलाइन 5 din se से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 1।",water_leak,medium
+"Mansarovar Sector 7 की पाइपलाइन one week से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 2।",water_leak,medium
+"Vaishali Nagar की पाइपलाइन 10 din se से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 3।",water_leak,medium
+"Bagru main road की पाइपलाइन 2 weeks से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 4।",water_leak,medium
+"Jagatpura की पाइपलाइन three days से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 5।",water_leak,medium
+"Tonk Road की पाइपलाइन 15 din se से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 6।",water_leak,medium
+"C-Scheme की पाइपलाइन last Monday से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 7।",water_leak,medium
+"Jhotwara की पाइपलाइन 2 days से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 8।",water_leak,medium
+"Vidhyadhar Nagar की पाइपलाइन 5 din se से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 9।",water_leak,medium
+"Pratap Nagar की पाइपलाइन one week से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 10।",water_leak,medium
+"Sodala की पाइपलाइन 10 din se से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 11।",water_leak,medium
+"Amer Road की पाइपलाइन 2 weeks से लीक है, बहुत पानी बर्बाद हो रहा है। गली नंबर 12।",water_leak,medium
+"Urgent: major pipeline burst at Malviya Nagar Sector 3 near bus stop; road is dangerously slippery. Block 1.",water_leak,high
+"Urgent: major pipeline burst at Mansarovar Sector 7 near anganwadi; road is dangerously slippery. Block 2.",water_leak,high
+"Urgent: major pipeline burst at Vaishali Nagar near market gate; road is dangerously slippery. Block 3.",water_leak,high
+"Urgent: major pipeline burst at Bagru main road near clinic; road is dangerously slippery. Block 4.",water_leak,high
+"Urgent: major pipeline burst at Jagatpura near metro station; road is dangerously slippery. Block 5.",water_leak,high
+"Urgent: major pipeline burst at Tonk Road near temple crossing; road is dangerously slippery. Block 6.",water_leak,high
+"Urgent: major pipeline burst at C-Scheme near government school; road is dangerously slippery. Block 7.",water_leak,high
+"Urgent: major pipeline burst at Jhotwara near community hospital; road is dangerously slippery. Block 8.",water_leak,high
+"Urgent: major pipeline burst at Vidhyadhar Nagar near bus stop; road is dangerously slippery. Block 9.",water_leak,high
+"Urgent: major pipeline burst at Pratap Nagar near anganwadi; road is dangerously slippery. Block 10.",water_leak,high
+"Urgent: major pipeline burst at Sodala near market gate; road is dangerously slippery. Block 11.",water_leak,high
+"Urgent: major pipeline burst at Amer Road near clinic; road is dangerously slippery. Block 12.",water_leak,high
+"Urgent: major pipeline burst at Bapu Nagar near metro station; road is dangerously slippery. Block 13.",water_leak,high
+"Urgent: major pipeline burst at Sanganer near temple crossing; road is dangerously slippery. Block 14.",water_leak,high
+"Urgent: major pipeline burst at Raja Park near government school; road is dangerously slippery. Block 15.",water_leak,high
+"Urgent: major pipeline burst at Civil Lines near community hospital; road is dangerously slippery. Block 16.",water_leak,high
+"Urgent: major pipeline burst at Muralipura near bus stop; road is dangerously slippery. Block 17.",water_leak,high
+"Urgent: major pipeline burst at Sitapura Industrial Area near anganwadi; road is dangerously slippery. Block 18.",water_leak,high
+"Urgent: major pipeline burst at Shastri Nagar near market gate; road is dangerously slippery. Block 19.",water_leak,high
+"Urgent: major pipeline burst at Adarsh Nagar near clinic; road is dangerously slippery. Block 20.",water_leak,high
+"Urgent: major pipeline burst at Gopalpura bypass near metro station; road is dangerously slippery. Block 21.",water_leak,high
+"Urgent: major pipeline burst at Nirman Nagar near temple crossing; road is dangerously slippery. Block 22.",water_leak,high
+"Urgent: major pipeline burst at Ramganj Bazaar near government school; road is dangerously slippery. Block 23.",water_leak,high
+"Urgent: major pipeline burst at Kukas near community hospital; road is dangerously slippery. Block 24.",water_leak,high
+"Urgent plz, Malviya Nagar Sector 3 near bus stop main pipe burst hai aur pani flood ho raha. Block 1.",water_leak,high
+"Urgent plz, Mansarovar Sector 7 near anganwadi main pipe burst hai aur pani flood ho raha. Block 2.",water_leak,high
+"Urgent plz, Vaishali Nagar near market gate main pipe burst hai aur pani flood ho raha. Block 3.",water_leak,high
+"Urgent plz, Bagru main road near clinic main pipe burst hai aur pani flood ho raha. Block 4.",water_leak,high
+"Urgent plz, Jagatpura near metro station main pipe burst hai aur pani flood ho raha. Block 5.",water_leak,high
+"Urgent plz, Tonk Road near temple crossing main pipe burst hai aur pani flood ho raha. Block 6.",water_leak,high
+"Urgent plz, C-Scheme near government school main pipe burst hai aur pani flood ho raha. Block 7.",water_leak,high
+"Urgent plz, Jhotwara near community hospital main pipe burst hai aur pani flood ho raha. Block 8.",water_leak,high
+"Urgent plz, Vidhyadhar Nagar near bus stop main pipe burst hai aur pani flood ho raha. Block 9.",water_leak,high
+"Urgent plz, Pratap Nagar near anganwadi main pipe burst hai aur pani flood ho raha. Block 10.",water_leak,high
+"Urgent plz, Sodala near market gate main pipe burst hai aur pani flood ho raha. Block 11.",water_leak,high
+"Urgent plz, Amer Road near clinic main pipe burst hai aur pani flood ho raha. Block 12.",water_leak,high
+"Urgent plz, Bapu Nagar near metro station main pipe burst hai aur pani flood ho raha. Block 13.",water_leak,high
+"Urgent plz, Sanganer near temple crossing main pipe burst hai aur pani flood ho raha. Block 14.",water_leak,high
+"Urgent plz, Raja Park near government school main pipe burst hai aur pani flood ho raha. Block 15.",water_leak,high
+"Urgent plz, Civil Lines near community hospital main pipe burst hai aur pani flood ho raha. Block 16.",water_leak,high
+"Urgent plz, Muralipura near bus stop main pipe burst hai aur pani flood ho raha. Block 17.",water_leak,high
+"Urgent plz, Sitapura Industrial Area near anganwadi main pipe burst hai aur pani flood ho raha. Block 18.",water_leak,high
+"Urgent plz, Shastri Nagar near market gate main pipe burst hai aur pani flood ho raha. Block 19.",water_leak,high
+"Urgent plz, Adarsh Nagar near clinic main pipe burst hai aur pani flood ho raha. Block 20.",water_leak,high
+"Urgent plz, Gopalpura bypass near metro station main pipe burst hai aur pani flood ho raha. Block 21.",water_leak,high
+"Urgent plz, Nirman Nagar near temple crossing main pipe burst hai aur pani flood ho raha. Block 22.",water_leak,high
+"Urgent plz, Ramganj Bazaar near government school main pipe burst hai aur pani flood ho raha. Block 23.",water_leak,high
+"Urgent plz, Kukas near community hospital main pipe burst hai aur pani flood ho raha. Block 24.",water_leak,high
+"तुरंत मरम्मत करें, Malviya Nagar Sector 3 में bus stop के पास पाइप फट गया है। गली नंबर 1।",water_leak,high
+"तुरंत मरम्मत करें, Mansarovar Sector 7 में anganwadi के पास पाइप फट गया है। गली नंबर 2।",water_leak,high
+"तुरंत मरम्मत करें, Vaishali Nagar में market gate के पास पाइप फट गया है। गली नंबर 3।",water_leak,high
+"तुरंत मरम्मत करें, Bagru main road में clinic के पास पाइप फट गया है। गली नंबर 4।",water_leak,high
+"तुरंत मरम्मत करें, Jagatpura में metro station के पास पाइप फट गया है। गली नंबर 5।",water_leak,high
+"तुरंत मरम्मत करें, Tonk Road में temple crossing के पास पाइप फट गया है। गली नंबर 6।",water_leak,high
+"तुरंत मरम्मत करें, C-Scheme में government school के पास पाइप फट गया है। गली नंबर 7।",water_leak,high
+"तुरंत मरम्मत करें, Jhotwara में community hospital के पास पाइप फट गया है। गली नंबर 8।",water_leak,high
+"तुरंत मरम्मत करें, Vidhyadhar Nagar में bus stop के पास पाइप फट गया है। गली नंबर 9।",water_leak,high
+"तुरंत मरम्मत करें, Pratap Nagar में anganwadi के पास पाइप फट गया है। गली नंबर 10।",water_leak,high
+"तुरंत मरम्मत करें, Sodala में market gate के पास पाइप फट गया है। गली नंबर 11।",water_leak,high
+"तुरंत मरम्मत करें, Amer Road में clinic के पास पाइप फट गया है। गली नंबर 12।",water_leak,high
+"A small pile of litter near Malviya Nagar Sector 3 needs collection; the lane is otherwise fine. Block 1.",waste,low
+"A small pile of litter near Mansarovar Sector 7 needs collection; the lane is otherwise fine. Block 2.",waste,low
+"A small pile of litter near Vaishali Nagar needs collection; the lane is otherwise fine. Block 3.",waste,low
+"A small pile of litter near Bagru main road needs collection; the lane is otherwise fine. Block 4.",waste,low
+"A small pile of litter near Jagatpura needs collection; the lane is otherwise fine. Block 5.",waste,low
+"A small pile of litter near Tonk Road needs collection; the lane is otherwise fine. Block 6.",waste,low
+"A small pile of litter near C-Scheme needs collection; the lane is otherwise fine. Block 7.",waste,low
+"A small pile of litter near Jhotwara needs collection; the lane is otherwise fine. Block 8.",waste,low
+"A small pile of litter near Vidhyadhar Nagar needs collection; the lane is otherwise fine. Block 9.",waste,low
+"A small pile of litter near Pratap Nagar needs collection; the lane is otherwise fine. Block 10.",waste,low
+"A small pile of litter near Sodala needs collection; the lane is otherwise fine. Block 11.",waste,low
+"A small pile of litter near Amer Road needs collection; the lane is otherwise fine. Block 12.",waste,low
+"A small pile of litter near Bapu Nagar needs collection; the lane is otherwise fine. Block 13.",waste,low
+"A small pile of litter near Sanganer needs collection; the lane is otherwise fine. Block 14.",waste,low
+"A small pile of litter near Raja Park needs collection; the lane is otherwise fine. Block 15.",waste,low
+"A small pile of litter near Civil Lines needs collection; the lane is otherwise fine. Block 16.",waste,low
+"A small pile of litter near Muralipura needs collection; the lane is otherwise fine. Block 17.",waste,low
+"A small pile of litter near Sitapura Industrial Area needs collection; the lane is otherwise fine. Block 18.",waste,low
+"A small pile of litter near Shastri Nagar needs collection; the lane is otherwise fine. Block 19.",waste,low
+"A small pile of litter near Adarsh Nagar needs collection; the lane is otherwise fine. Block 20.",waste,low
+"A small pile of litter near Gopalpura bypass needs collection; the lane is otherwise fine. Block 21.",waste,low
+"A small pile of litter near Nirman Nagar needs collection; the lane is otherwise fine. Block 22.",waste,low
+"A small pile of litter near Ramganj Bazaar needs collection; the lane is otherwise fine. Block 23.",waste,low
+"A small pile of litter near Kukas needs collection; the lane is otherwise fine. Block 24.",waste,low
+"Malviya Nagar Sector 3 ke paas thoda litter pada hai, next round mein utha do pls. Block 1.",waste,low
+"Mansarovar Sector 7 ke paas thoda litter pada hai, next round mein utha do pls. Block 2.",waste,low
+"Vaishali Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 3.",waste,low
+"Bagru main road ke paas thoda litter pada hai, next round mein utha do pls. Block 4.",waste,low
+"Jagatpura ke paas thoda litter pada hai, next round mein utha do pls. Block 5.",waste,low
+"Tonk Road ke paas thoda litter pada hai, next round mein utha do pls. Block 6.",waste,low
+"C-Scheme ke paas thoda litter pada hai, next round mein utha do pls. Block 7.",waste,low
+"Jhotwara ke paas thoda litter pada hai, next round mein utha do pls. Block 8.",waste,low
+"Vidhyadhar Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 9.",waste,low
+"Pratap Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 10.",waste,low
+"Sodala ke paas thoda litter pada hai, next round mein utha do pls. Block 11.",waste,low
+"Amer Road ke paas thoda litter pada hai, next round mein utha do pls. Block 12.",waste,low
+"Bapu Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 13.",waste,low
+"Sanganer ke paas thoda litter pada hai, next round mein utha do pls. Block 14.",waste,low
+"Raja Park ke paas thoda litter pada hai, next round mein utha do pls. Block 15.",waste,low
+"Civil Lines ke paas thoda litter pada hai, next round mein utha do pls. Block 16.",waste,low
+"Muralipura ke paas thoda litter pada hai, next round mein utha do pls. Block 17.",waste,low
+"Sitapura Industrial Area ke paas thoda litter pada hai, next round mein utha do pls. Block 18.",waste,low
+"Shastri Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 19.",waste,low
+"Adarsh Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 20.",waste,low
+"Gopalpura bypass ke paas thoda litter pada hai, next round mein utha do pls. Block 21.",waste,low
+"Nirman Nagar ke paas thoda litter pada hai, next round mein utha do pls. Block 22.",waste,low
+"Ramganj Bazaar ke paas thoda litter pada hai, next round mein utha do pls. Block 23.",waste,low
+"Kukas ke paas thoda litter pada hai, next round mein utha do pls. Block 24.",waste,low
+"Malviya Nagar Sector 3 के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 1।",waste,low
+"Mansarovar Sector 7 के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 2।",waste,low
+"Vaishali Nagar के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 3।",waste,low
+"Bagru main road के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 4।",waste,low
+"Jagatpura के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 5।",waste,low
+"Tonk Road के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 6।",waste,low
+"C-Scheme के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 7।",waste,low
+"Jhotwara के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 8।",waste,low
+"Vidhyadhar Nagar के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 9।",waste,low
+"Pratap Nagar के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 10।",waste,low
+"Sodala के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 11।",waste,low
+"Amer Road के पास थोड़ा कचरा पड़ा है, अगली सफाई में उठा लें। गली नंबर 12।",waste,low
+"Garbage pile at Malviya Nagar Sector 3 has not been collected for 5 din se and smells bad. Block 1.",waste,medium
+"Garbage pile at Mansarovar Sector 7 has not been collected for one week and smells bad. Block 2.",waste,medium
+"Garbage pile at Vaishali Nagar has not been collected for 10 din se and smells bad. Block 3.",waste,medium
+"Garbage pile at Bagru main road has not been collected for 2 weeks and smells bad. Block 4.",waste,medium
+"Garbage pile at Jagatpura has not been collected for three days and smells bad. Block 5.",waste,medium
+"Garbage pile at Tonk Road has not been collected for 15 din se and smells bad. Block 6.",waste,medium
+"Garbage pile at C-Scheme has not been collected for last Monday and smells bad. Block 7.",waste,medium
+"Garbage pile at Jhotwara has not been collected for 2 days and smells bad. Block 8.",waste,medium
+"Garbage pile at Vidhyadhar Nagar has not been collected for 5 din se and smells bad. Block 9.",waste,medium
+"Garbage pile at Pratap Nagar has not been collected for one week and smells bad. Block 10.",waste,medium
+"Garbage pile at Sodala has not been collected for 10 din se and smells bad. Block 11.",waste,medium
+"Garbage pile at Amer Road has not been collected for 2 weeks and smells bad. Block 12.",waste,medium
+"Garbage pile at Bapu Nagar has not been collected for three days and smells bad. Block 13.",waste,medium
+"Garbage pile at Sanganer has not been collected for 15 din se and smells bad. Block 14.",waste,medium
+"Garbage pile at Raja Park has not been collected for last Monday and smells bad. Block 15.",waste,medium
+"Garbage pile at Civil Lines has not been collected for 2 days and smells bad. Block 16.",waste,medium
+"Garbage pile at Muralipura has not been collected for 5 din se and smells bad. Block 17.",waste,medium
+"Garbage pile at Sitapura Industrial Area has not been collected for one week and smells bad. Block 18.",waste,medium
+"Garbage pile at Shastri Nagar has not been collected for 10 din se and smells bad. Block 19.",waste,medium
+"Garbage pile at Adarsh Nagar has not been collected for 2 weeks and smells bad. Block 20.",waste,medium
+"Garbage pile at Gopalpura bypass has not been collected for three days and smells bad. Block 21.",waste,medium
+"Garbage pile at Nirman Nagar has not been collected for 15 din se and smells bad. Block 22.",waste,medium
+"Garbage pile at Ramganj Bazaar has not been collected for last Monday and smells bad. Block 23.",waste,medium
+"Garbage pile at Kukas has not been collected for 2 days and smells bad. Block 24.",waste,medium
+"Malviya Nagar Sector 3 mein kachra 5 din se se pada hai aur bht smell aa rahi hai. Block 1.",waste,medium
+"Mansarovar Sector 7 mein kachra one week se pada hai aur bht smell aa rahi hai. Block 2.",waste,medium
+"Vaishali Nagar mein kachra 10 din se se pada hai aur bht smell aa rahi hai. Block 3.",waste,medium
+"Bagru main road mein kachra 2 weeks se pada hai aur bht smell aa rahi hai. Block 4.",waste,medium
+"Jagatpura mein kachra three days se pada hai aur bht smell aa rahi hai. Block 5.",waste,medium
+"Tonk Road mein kachra 15 din se se pada hai aur bht smell aa rahi hai. Block 6.",waste,medium
+"C-Scheme mein kachra last Monday se pada hai aur bht smell aa rahi hai. Block 7.",waste,medium
+"Jhotwara mein kachra 2 days se pada hai aur bht smell aa rahi hai. Block 8.",waste,medium
+"Vidhyadhar Nagar mein kachra 5 din se se pada hai aur bht smell aa rahi hai. Block 9.",waste,medium
+"Pratap Nagar mein kachra one week se pada hai aur bht smell aa rahi hai. Block 10.",waste,medium
+"Sodala mein kachra 10 din se se pada hai aur bht smell aa rahi hai. Block 11.",waste,medium
+"Amer Road mein kachra 2 weeks se pada hai aur bht smell aa rahi hai. Block 12.",waste,medium
+"Bapu Nagar mein kachra three days se pada hai aur bht smell aa rahi hai. Block 13.",waste,medium
+"Sanganer mein kachra 15 din se se pada hai aur bht smell aa rahi hai. Block 14.",waste,medium
+"Raja Park mein kachra last Monday se pada hai aur bht smell aa rahi hai. Block 15.",waste,medium
+"Civil Lines mein kachra 2 days se pada hai aur bht smell aa rahi hai. Block 16.",waste,medium
+"Muralipura mein kachra 5 din se se pada hai aur bht smell aa rahi hai. Block 17.",waste,medium
+"Sitapura Industrial Area mein kachra one week se pada hai aur bht smell aa rahi hai. Block 18.",waste,medium
+"Shastri Nagar mein kachra 10 din se se pada hai aur bht smell aa rahi hai. Block 19.",waste,medium
+"Adarsh Nagar mein kachra 2 weeks se pada hai aur bht smell aa rahi hai. Block 20.",waste,medium
+"Gopalpura bypass mein kachra three days se pada hai aur bht smell aa rahi hai. Block 21.",waste,medium
+"Nirman Nagar mein kachra 15 din se se pada hai aur bht smell aa rahi hai. Block 22.",waste,medium
+"Ramganj Bazaar mein kachra last Monday se pada hai aur bht smell aa rahi hai. Block 23.",waste,medium
+"Kukas mein kachra 2 days se pada hai aur bht smell aa rahi hai. Block 24.",waste,medium
+"Malviya Nagar Sector 3 में कचरा 5 din se से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 1।",waste,medium
+"Mansarovar Sector 7 में कचरा one week से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 2।",waste,medium
+"Vaishali Nagar में कचरा 10 din se से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 3।",waste,medium
+"Bagru main road में कचरा 2 weeks से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 4।",waste,medium
+"Jagatpura में कचरा three days से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 5।",waste,medium
+"Tonk Road में कचरा 15 din se से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 6।",waste,medium
+"C-Scheme में कचरा last Monday से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 7।",waste,medium
+"Jhotwara में कचरा 2 days से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 8।",waste,medium
+"Vidhyadhar Nagar में कचरा 5 din se से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 9।",waste,medium
+"Pratap Nagar में कचरा one week से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 10।",waste,medium
+"Sodala में कचरा 10 din se से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 11।",waste,medium
+"Amer Road में कचरा 2 weeks से नहीं उठा, बदबू बहुत आ रही है। गली नंबर 12।",waste,medium
+"Urgent health issue: rotting waste at Malviya Nagar Sector 3 near bus stop is attracting animals. Block 1.",waste,high
+"Urgent health issue: rotting waste at Mansarovar Sector 7 near anganwadi is attracting animals. Block 2.",waste,high
+"Urgent health issue: rotting waste at Vaishali Nagar near market gate is attracting animals. Block 3.",waste,high
+"Urgent health issue: rotting waste at Bagru main road near clinic is attracting animals. Block 4.",waste,high
+"Urgent health issue: rotting waste at Jagatpura near metro station is attracting animals. Block 5.",waste,high
+"Urgent health issue: rotting waste at Tonk Road near temple crossing is attracting animals. Block 6.",waste,high
+"Urgent health issue: rotting waste at C-Scheme near government school is attracting animals. Block 7.",waste,high
+"Urgent health issue: rotting waste at Jhotwara near community hospital is attracting animals. Block 8.",waste,high
+"Urgent health issue: rotting waste at Vidhyadhar Nagar near bus stop is attracting animals. Block 9.",waste,high
+"Urgent health issue: rotting waste at Pratap Nagar near anganwadi is attracting animals. Block 10.",waste,high
+"Urgent health issue: rotting waste at Sodala near market gate is attracting animals. Block 11.",waste,high
+"Urgent health issue: rotting waste at Amer Road near clinic is attracting animals. Block 12.",waste,high
+"Urgent health issue: rotting waste at Bapu Nagar near metro station is attracting animals. Block 13.",waste,high
+"Urgent health issue: rotting waste at Sanganer near temple crossing is attracting animals. Block 14.",waste,high
+"Urgent health issue: rotting waste at Raja Park near government school is attracting animals. Block 15.",waste,high
+"Urgent health issue: rotting waste at Civil Lines near community hospital is attracting animals. Block 16.",waste,high
+"Urgent health issue: rotting waste at Muralipura near bus stop is attracting animals. Block 17.",waste,high
+"Urgent health issue: rotting waste at Sitapura Industrial Area near anganwadi is attracting animals. Block 18.",waste,high
+"Urgent health issue: rotting waste at Shastri Nagar near market gate is attracting animals. Block 19.",waste,high
+"Urgent health issue: rotting waste at Adarsh Nagar near clinic is attracting animals. Block 20.",waste,high
+"Urgent health issue: rotting waste at Gopalpura bypass near metro station is attracting animals. Block 21.",waste,high
+"Urgent health issue: rotting waste at Nirman Nagar near temple crossing is attracting animals. Block 22.",waste,high
+"Urgent health issue: rotting waste at Ramganj Bazaar near government school is attracting animals. Block 23.",waste,high
+"Urgent health issue: rotting waste at Kukas near community hospital is attracting animals. Block 24.",waste,high
+"Urgent cleanup, Malviya Nagar Sector 3 near bus stop rotting waste se health hazard ho gaya. Block 1.",waste,high
+"Urgent cleanup, Mansarovar Sector 7 near anganwadi rotting waste se health hazard ho gaya. Block 2.",waste,high
+"Urgent cleanup, Vaishali Nagar near market gate rotting waste se health hazard ho gaya. Block 3.",waste,high
+"Urgent cleanup, Bagru main road near clinic rotting waste se health hazard ho gaya. Block 4.",waste,high
+"Urgent cleanup, Jagatpura near metro station rotting waste se health hazard ho gaya. Block 5.",waste,high
+"Urgent cleanup, Tonk Road near temple crossing rotting waste se health hazard ho gaya. Block 6.",waste,high
+"Urgent cleanup, C-Scheme near government school rotting waste se health hazard ho gaya. Block 7.",waste,high
+"Urgent cleanup, Jhotwara near community hospital rotting waste se health hazard ho gaya. Block 8.",waste,high
+"Urgent cleanup, Vidhyadhar Nagar near bus stop rotting waste se health hazard ho gaya. Block 9.",waste,high
+"Urgent cleanup, Pratap Nagar near anganwadi rotting waste se health hazard ho gaya. Block 10.",waste,high
+"Urgent cleanup, Sodala near market gate rotting waste se health hazard ho gaya. Block 11.",waste,high
+"Urgent cleanup, Amer Road near clinic rotting waste se health hazard ho gaya. Block 12.",waste,high
+"Urgent cleanup, Bapu Nagar near metro station rotting waste se health hazard ho gaya. Block 13.",waste,high
+"Urgent cleanup, Sanganer near temple crossing rotting waste se health hazard ho gaya. Block 14.",waste,high
+"Urgent cleanup, Raja Park near government school rotting waste se health hazard ho gaya. Block 15.",waste,high
+"Urgent cleanup, Civil Lines near community hospital rotting waste se health hazard ho gaya. Block 16.",waste,high
+"Urgent cleanup, Muralipura near bus stop rotting waste se health hazard ho gaya. Block 17.",waste,high
+"Urgent cleanup, Sitapura Industrial Area near anganwadi rotting waste se health hazard ho gaya. Block 18.",waste,high
+"Urgent cleanup, Shastri Nagar near market gate rotting waste se health hazard ho gaya. Block 19.",waste,high
+"Urgent cleanup, Adarsh Nagar near clinic rotting waste se health hazard ho gaya. Block 20.",waste,high
+"Urgent cleanup, Gopalpura bypass near metro station rotting waste se health hazard ho gaya. Block 21.",waste,high
+"Urgent cleanup, Nirman Nagar near temple crossing rotting waste se health hazard ho gaya. Block 22.",waste,high
+"Urgent cleanup, Ramganj Bazaar near government school rotting waste se health hazard ho gaya. Block 23.",waste,high
+"Urgent cleanup, Kukas near community hospital rotting waste se health hazard ho gaya. Block 24.",waste,high
+"तुरंत कचरा उठाएँ, Malviya Nagar Sector 3 में bus stop के पास स्वास्थ्य खतरा है। गली नंबर 1।",waste,high
+"तुरंत कचरा उठाएँ, Mansarovar Sector 7 में anganwadi के पास स्वास्थ्य खतरा है। गली नंबर 2।",waste,high
+"तुरंत कचरा उठाएँ, Vaishali Nagar में market gate के पास स्वास्थ्य खतरा है। गली नंबर 3।",waste,high
+"तुरंत कचरा उठाएँ, Bagru main road में clinic के पास स्वास्थ्य खतरा है। गली नंबर 4।",waste,high
+"तुरंत कचरा उठाएँ, Jagatpura में metro station के पास स्वास्थ्य खतरा है। गली नंबर 5।",waste,high
+"तुरंत कचरा उठाएँ, Tonk Road में temple crossing के पास स्वास्थ्य खतरा है। गली नंबर 6।",waste,high
+"तुरंत कचरा उठाएँ, C-Scheme में government school के पास स्वास्थ्य खतरा है। गली नंबर 7।",waste,high
+"तुरंत कचरा उठाएँ, Jhotwara में community hospital के पास स्वास्थ्य खतरा है। गली नंबर 8।",waste,high
+"तुरंत कचरा उठाएँ, Vidhyadhar Nagar में bus stop के पास स्वास्थ्य खतरा है। गली नंबर 9।",waste,high
+"तुरंत कचरा उठाएँ, Pratap Nagar में anganwadi के पास स्वास्थ्य खतरा है। गली नंबर 10।",waste,high
+"तुरंत कचरा उठाएँ, Sodala में market gate के पास स्वास्थ्य खतरा है। गली नंबर 11।",waste,high
+"तुरंत कचरा उठाएँ, Amer Road में clinic के पास स्वास्थ्य खतरा है। गली नंबर 12।",waste,high

@@ -1,0 +1,26 @@
+text,category,severity
+"A shallow chip has appeared on the curb stone; vehicles move past normally.",road_damage,low
+"Delivery vans keep swerving around broken asphalt at the depot entrance.",road_damage,medium
+"The bridge ramp has caved in and two riders are trapped beside the canal.",road_damage,high
+"A small opening in the road has exposed sharp rebar where cyclists ride.",road_damage,high
+"One streetlamp glows dimly but the lane remains well lit.",streetlight,low
+"Every lamp on the pedestrian route to the bus stand has stopped working.",streetlight,medium
+"A live cable hangs from the lighting pole into a puddle near the market.",streetlight,high
+"The timer on the school courtyard light stays on after sunrise.",streetlight,low
+"Dry leaves cover part of a drain grate but rainwater still flows through.",drainage,low
+"Runoff has backed up from the roadside drain across several shop entrances.",drainage,medium
+"An uncovered storm drain swallowed a pedestrian who needs rescue.",drainage,high
+"Raw sewage is rising through the drain into a crowded clinic walkway.",drainage,high
+"A public standpipe drips into a bucket once every few seconds.",water_leak,low
+"A supply pipe under the sidewalk leaks steadily and nearby houses have weak pressure.",water_leak,medium
+"A water main burst next to an electrical cabinet and people feel shocks in the flood.",water_leak,high
+"A small crack in a water pipe is spraying onto an exposed live wire.",water_leak,high
+"A few food wrappers are beside the bin although the bin is mostly empty.",waste,low
+"The collection truck missed two pickups and bags are piling up along the lane.",waste,medium
+"Used syringes and bloodied dressings were dumped where children play.",waste,high
+"A little pile of rubbish is smouldering against a wooden stall with people inside.",waste,high
+"A pack of stray dogs chased and bit a jogger outside the park.",,high
+"The traffic signal at the crossing gives green to both directions at once.",,high
+"The classroom ceiling fan makes a soft ticking noise but works normally.",,low
+"Night construction noise keeps residents awake despite sound barriers.",,medium
+"There is a suspected gas leak from a restaurant kitchen cylinder.",,high

@@ -1,0 +1,16 @@
+text,category,severity
+"The lane by our apartment has a tiny rough patch; vehicles pass normally.",road_damage,low
+"The bus jolts hard over missing asphalt outside Pink City market every morning.",road_damage,medium
+"A motorcyclist crashed into a deep hole beside the school entrance; send help now.",road_damage,high
+"Ek lamp ka glass thoda dusty hai but roshni theek aa rahi hai.",streetlight,low
+"Raat ko colony ke chaar pole nahi jalte; log phone torch se chal rahe hain.",streetlight,medium
+"School gate ke saamne bilkul andhera hai aur fast gaadiyan bachchon ko narrowly miss kar rahi hain.",streetlight,high
+"नाली के ढक्कन पर सूखे पत्ते हैं, पानी अभी निकल जाता है।",drainage,low
+"बारिश के बाद नाला भरकर फुटपाथ पर बहता है, कई दिनों से सफाई नहीं हुई।",drainage,medium
+"अस्पताल के बाहर सीवेज का पानी मरीजों के रास्ते में बह रहा है, संक्रमण का डर है।",drainage,high
+"The public tap has a slow drip that leaves only a damp mark.",water_leak,low
+"A pipe joint behind the shops sprays water steadily, reducing pressure in nearby homes.",water_leak,medium
+"Water is pouring from a burst main beside an electrical cabinet; the street is flooded.",water_leak,high
+"Plastic cups are scattered near the park bench; the bin still has room.",waste,low
+"Kachra gaadi kai din nahi aayi, gali ke kone mein bags sad rahe hain.",waste,medium
+"बच्चों के खेल मैदान के पास सड़ा कचरा और टूटी शीशियाँ फैली हैं, तुरंत हटाएँ।",waste,high

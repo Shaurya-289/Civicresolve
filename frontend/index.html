@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CivicResolve — Modern Citizen Infrastructure Complaint Portal</title>
+  <meta name="description" content="Report local urban infrastructure issues, potholes, streetlights, and water leaks. Track municipal resolution in real time with CivicResolve.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand" id="brand-link" aria-label="CivicResolve Home">
+        <div class="brand-icon">
+          <!-- Shield / City Landmark Icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+        </div>
+        <div class="brand-title">
+          <span class="brand-name">CivicResolve</span>
+          <span class="brand-tagline">Your city. Your voice.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links-menu">
+          <li><a href="#home" class="nav-link active" id="nav-home-link">Home</a></li>
+          <li><a href="#report" class="nav-link" id="nav-report-link">Report Issue</a></li>
+          <li><a href="#track" class="nav-link" id="nav-track-link">Track Complaint</a></li>
+          <li><a href="/" class="nav-link">Switch role</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="nav-mobile-toggle" id="nav-mobile-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12"/>
+          <line x1="4" x2="20" y1="6" y2="6"/>
+          <line x1="4" x2="20" y1="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Views -->
+  <main>
+    <!-- View A: Homepage -->
+    <section class="view-section active" id="view-home" aria-labelledby="hero-heading">
+      <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-wrapper">
+          <div class="hero-eyebrow">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="10"/>
+            </svg>
+            CivicResolve Hackathon Demo
+          </div>
+          <h1 class="hero-title" id="hero-heading">Your city. Your voice.</h1>
+          <p class="hero-subtitle">Report local infrastructure problems and track their recorded status in this civic-service demo.</p>
+          <div class="hero-actions">
+            <button type="button" class="btn btn-primary" id="hero-report-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="16"/>
+                <line x1="8" y1="12" x2="16" y2="12"/>
+              </svg>
+              Report an Issue
+            </button>
+            <button type="button" class="btn btn-secondary" id="hero-track-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              Track Complaint
+            </button>
+          </div>
+        </div>
+
+        <!-- Trust & Information Strip -->
+        <div class="trust-strip">
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <strong>Self-Service Reporting</strong>
+              <span>Log issues while the demo service is available</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <strong>Automated Triage</strong>
+              <span>Local models assess category and severity when available</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <strong>Transparent Tracking</strong>
+              <span>Track stages from intake to resolution</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="section-header">
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">A four-step view of reporting, automated triage, proposed review, and status tracking.</p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-header">
+              <div class="step-number">1</div>
+              <div class="step-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">Submit a complaint</h3>
+            <p class="step-desc">Describe the infrastructure problem, provide the location, and report the affected area.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-header">
+              <div class="step-number">2</div>
+              <div class="step-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="2"/>
+                  <path d="M3 9h18"/>
+                  <path d="M9 21V9"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">System evaluates</h3>
+            <p class="step-desc">Machine learning models classify the category, evaluate severity, and check historical records.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-header">
+              <div class="step-number">3</div>
+              <div class="step-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <polyline points="16 11 18 13 22 9"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">Review &amp; prioritize</h3>
+            <p class="step-desc">Administrators review triage metrics before any dispatch decision.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-header">
+              <div class="step-number">4</div>
+              <div class="step-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">Track recorded status</h3>
+            <p class="step-desc">Use your tracking reference to view the status currently saved by the system.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- View B: Report Complaint Page -->
+    <section class="view-section" id="view-report" aria-labelledby="report-heading">
+      <div class="container">
+        <div class="form-card">
+          <div class="card-header">
+            <h1 class="card-title" id="report-heading">Report an Issue</h1>
+            <p class="card-subtitle">Tell us what's happening in your area.</p>
+          </div>
+
+          <!-- Alert Container for Form Errors -->
+          <div class="alert alert-error" id="form-alert" style="display: none;" role="alert">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <span id="form-alert-text">Please review and correct the errors below.</span>
+          </div>
+
+          <form id="complaint-form" novalidate>
+            <!-- Complaint Title (Optional) -->
+            <div class="form-group" id="group-title">
+              <label for="input-title" class="form-label">
+                Complaint Title <span class="label-hint">(Optional)</span>
+              </label>
+              <input
+                type="text"
+                id="input-title"
+                name="title"
+                class="form-control"
+                maxlength="200"
+                placeholder="e.g., Deep pothole near main road intersection"
+                autocomplete="off"
+              >
+              <div class="field-helper">
+                <span>Brief summary of the infrastructure problem</span>
+                <span class="char-counter" id="title-counter">0/200</span>
+              </div>
+            </div>
+
+            <!-- Complaint Description (Required) -->
+            <div class="form-group" id="group-description">
+              <label for="input-description" class="form-label">
+                Complaint Description <span class="label-required">*</span>
+              </label>
+              <textarea
+                id="input-description"
+                name="description"
+                class="form-control"
+                rows="4"
+                maxlength="2000"
+                required
+                placeholder="There is a large pothole near the main road causing traffic problems..."
+              ></textarea>
+              <div class="field-helper">
+                <span>Encourage clear explanation: cause, hazards, or impact</span>
+                <span class="char-counter" id="desc-counter">0/2000</span>
+              </div>
+              <div class="field-error" id="error-description">Please enter a detailed description of the problem.</div>
+            </div>
+
+            <!-- Location (Required) -->
+            <div class="form-group" id="group-location">
+              <label for="input-location" class="form-label">
+                Location <span class="label-required">*</span>
+              </label>
+              <div class="input-wrapper">
+                <span class="input-icon-prefix" aria-hidden="true">
+                  <!-- Location Pin Icon -->
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </span>
+                <input
+                  type="text"
+                  id="input-location"
+                  name="location"
+                  class="form-control has-icon"
+                  maxlength="200"
+                  required
+                  placeholder="Citizen address, area, or nearby landmark"
+                  autocomplete="street-address"
+                >
+              </div>
+              <div class="field-helper">
+                <span>Citizen-reported street address, sector, or recognizable landmark</span>
+              </div>
+              <div class="field-error" id="error-location">Please provide the location or nearby landmark.</div>
+            </div>
+
+            <!-- Area Affected (Required) -->
+            <div class="form-group" id="group-area">
+              <label for="select-area" class="form-label">
+                Area Affected <span class="label-required">*</span>
+              </label>
+              <select id="select-area" name="affected_area" class="form-control" required>
+                <option value="single_household_building">Single household / building</option>
+                <option value="street_lane" selected>Street / lane</option>
+                <option value="neighborhood">Neighborhood</option>
+                <option value="multiple_neighborhoods_major_area">Multiple neighborhoods / major area</option>
+              </select>
+              <div class="field-helper">
+                <span>Estimated scale of community impact</span>
+              </div>
+            </div>
+
+            <!-- Problem Duration (Required numeric days) -->
+            <div class="form-group" id="group-days">
+              <label for="input-days" class="form-label">
+                Problem Duration (Days) <span class="label-required">*</span>
+              </label>
+              <input
+                type="number"
+                id="input-days"
+                name="days_existing"
+                class="form-control"
+                min="0"
+                max="3650"
+                step="1"
+                value="1"
+                required
+              >
+              <div class="field-helper">
+                <span>How many days has this issue existed? (0 if happened today)</span>
+              </div>
+              <div class="field-error" id="error-days">Please enter a valid non-negative number of days.</div>
+            </div>
+
+            <!-- Citizen-reported location context; at least one tag is required by the backend. -->
+            <div class="form-group" id="group-tags">
+              <label class="form-label">
+                Location Context <span class="label-required">*</span> <span class="label-hint">(Select at least one)</span>
+              </label>
+              <div class="tags-container" role="group" aria-label="Location Context">
+                <label>
+                  <input type="checkbox" name="location_tags" value="residential_area" class="tag-checkbox" id="tag-residential" checked>
+                  <span class="tag-chip">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Residential Area
+                  </span>
+                </label>
+                <label>
+                  <input type="checkbox" name="location_tags" value="school" class="tag-checkbox" id="tag-school">
+                  <span class="tag-chip">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    School / College
+                  </span>
+                </label>
+                <label>
+                  <input type="checkbox" name="location_tags" value="hospital" class="tag-checkbox" id="tag-hospital">
+                  <span class="tag-chip">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Hospital
+                  </span>
+                </label>
+                <label>
+                  <input type="checkbox" name="location_tags" value="main_road" class="tag-checkbox" id="tag-main-road">
+                  <span class="tag-chip">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Main Road
+                  </span>
+                </label>
+                <label>
+                  <input type="checkbox" name="location_tags" value="transport_hub" class="tag-checkbox" id="tag-transport">
+                  <span class="tag-chip">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    Transportation Hub
+                  </span>
+                </label>
+              </div>
+              <div class="field-helper">
+                <span>Residential Area is preselected; change it to match your report. Tags are not verified geographic facts.</span>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div style="margin-top: 2rem;">
+              <button type="submit" class="btn btn-primary btn-block" id="btn-submit-complaint">
+                <span class="spinner" aria-hidden="true"></span>
+                <span class="btn-text">Submit Complaint</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- View C: Complaint Submission Result -->
+    <section class="view-section" id="view-result" aria-labelledby="result-heading">
+      <div class="container">
+        <div class="result-card">
+          <div class="result-icon-wrapper">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+
+          <h1 class="result-title" id="result-heading">Complaint Submitted Successfully</h1>
+          <p class="result-subtitle">Your report is stored. Copy and save the private tracking reference; the visible ID alone cannot reopen it.</p>
+
+          <!-- Tracking ID Box with Copy Button -->
+          <div class="tracking-id-box">
+            <div class="tracking-id-info">
+              <div class="tracking-id-label">Tracking Identifier</div>
+              <div class="tracking-id-value" id="result-tracking-id">—</div>
+            </div>
+            <button type="button" class="btn-copy" id="btn-copy-id" aria-label="Copy private tracking reference">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+              </svg>
+              <span id="copy-btn-text">Copy Reference</span>
+            </button>
+          </div>
+
+          <!-- Result Details Grid -->
+          <div class="result-grid">
+            <div class="result-item">
+              <span class="result-item-label">Complaint Title</span>
+              <span class="result-item-value" id="result-title-val">—</span>
+            </div>
+            <div class="result-item">
+              <span class="result-item-label">Submitted Date</span>
+              <span class="result-item-value" id="result-date-val">—</span>
+            </div>
+            <div class="result-item">
+              <span class="result-item-label">Workflow Status</span>
+              <span class="result-item-value">
+                <span class="badge badge-submitted" id="result-workflow-status">Submitted</span>
+              </span>
+            </div>
+            <div class="result-item">
+              <span class="result-item-label">Processing Status</span>
+              <span class="result-item-value">
+                <span class="badge badge-pending" id="result-processing-status">Pending Evaluation</span>
+              </span>
+            </div>
+            <div class="result-item" style="grid-column: 1 / -1;">
+              <span class="result-item-label">Reported Location</span>
+              <span class="result-item-value" id="result-location-val">—</span>
+            </div>
+          </div>
+
+          <!-- Municipal Notice -->
+          <div class="disclaimer-box">
+            <strong>Citizen Notice:</strong> Automated categorization and priority scores are triage aids. This demo does not assign crews or promise an inspection or repair schedule.
+          </div>
+
+          <!-- Actions -->
+          <div class="result-actions">
+            <button type="button" class="btn btn-primary" id="btn-result-track">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              Track Complaint
+            </button>
+            <button type="button" class="btn btn-secondary" id="btn-result-new">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"/>
+                <line x1="5" y1="12" x2="19" y2="12"/>
+              </svg>
+              Submit Another Complaint
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- View D: Track Complaint Page -->
+    <section class="view-section" id="view-track" aria-labelledby="track-heading">
+      <div class="container">
+        <div class="track-card">
+          <div class="card-header">
+            <h1 class="card-title" id="track-heading">Track Your Complaint</h1>
+            <p class="card-subtitle">Paste the complete private reference copied when you submitted. Keep it confidential.</p>
+          </div>
+
+          <!-- Tracking Search Form -->
+          <form id="track-form" class="track-form" novalidate>
+            <label for="input-track-id" class="sr-only">Private tracking reference</label>
+            <input
+              type="text"
+              id="input-track-id"
+              class="form-control"
+              placeholder="Paste full tracking reference"
+              autocomplete="off"
+              required
+            >
+            <button type="submit" class="btn btn-primary" id="btn-track-submit">
+              <span class="spinner" aria-hidden="true"></span>
+              <span class="btn-text">Track</span>
+            </button>
+          </form>
+
+          <!-- Tracking Alert / Error Container -->
+          <div class="alert alert-error" id="track-alert" style="display: none;" role="alert">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <span id="track-alert-text">Complaint not found. Please verify your tracking ID and try again.</span>
+          </div>
+
+          <!-- Tracking Results Container -->
+          <div class="track-result-container" id="track-result-container">
+            <!-- Progress Indicator Timeline (4 stages supported by backend) -->
+            <div class="timeline-wrapper">
+              <div class="timeline-steps">
+                <div class="timeline-progress-bar" id="timeline-progress-bar" style="width: 0%;"></div>
+
+                <!-- Stage 1: Submitted -->
+                <div class="timeline-step" id="step-submitted">
+                  <div class="step-marker" id="marker-submitted">1</div>
+                  <span class="step-marker-label">Submitted</span>
+                </div>
+
+                <!-- Stage 2: Under Review -->
+                <div class="timeline-step" id="step-review">
+                  <div class="step-marker" id="marker-review">2</div>
+                  <span class="step-marker-label">Under Review</span>
+                </div>
+
+                <!-- Stage 3: Assigned -->
+                <div class="timeline-step" id="step-assigned">
+                  <div class="step-marker" id="marker-assigned">3</div>
+                  <span class="step-marker-label">Assigned</span>
+                </div>
+
+                <!-- Stage 4: Resolved -->
+                <div class="timeline-step" id="step-resolved">
+                  <div class="step-marker" id="marker-resolved">4</div>
+                  <span class="step-marker-label">Resolved</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Detail Breakdown Card -->
+            <div class="track-detail-card">
+              <div class="track-header-row">
+                <div>
+                  <h2 class="track-title" id="track-detail-title">Complaint Title</h2>
+                  <div class="track-id-line">
+                    ID: <span id="track-detail-id" style="font-family: monospace;">—</span>
+                  </div>
+                </div>
+                <div class="track-status-stack">
+                  <span class="badge badge-submitted" id="track-detail-status-badge">Submitted</span>
+                  <span class="badge badge-pending" id="track-detail-proc-badge">Pending</span>
+                </div>
+              </div>
+
+              <!-- Citizen Description -->
+              <div class="meta-field-label">Reported Description</div>
+              <div class="track-desc-box" id="track-detail-description">
+                Loading description...
+              </div>
+
+              <!-- Metadata Grid -->
+              <div class="track-meta-grid">
+                <div class="meta-field">
+                  <span class="meta-field-label">Reported Location</span>
+                  <span class="meta-field-value" id="track-detail-location">—</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Category (Automated Estimate)</span>
+                  <span class="meta-field-value" id="track-detail-category">Pending Evaluation</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Submitted Date</span>
+                  <span class="meta-field-value" id="track-detail-date">—</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Affected Area</span>
+                  <span class="meta-field-value" id="track-detail-area">—</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Duration Existing</span>
+                  <span class="meta-field-value" id="track-detail-days">—</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Context Tags</span>
+                  <span class="meta-field-value" id="track-detail-tags">—</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Security & Authority Notice -->
+            <div class="disclaimer-box" style="margin-top: 1.5rem; margin-bottom: 0;">
+              <strong>Demo Privacy Notice:</strong> A copied private reference is required for status lookup; the visible ID alone is not enough. Keep the reference confidential. Avoid personal information because this is a controlled demonstration, not a production privacy service.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toast-container" aria-live="polite">
+    <div class="toast" id="toast">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A7F3D0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"/>
+      </svg>
+      <span id="toast-message">Private tracking reference copied</span>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-brand-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            CivicResolve
+          </div>
+          <p class="footer-tagline">
+            An AI-Powered Urban Infrastructure Complaint Prioritization System designed to ensure rapid, fair, and transparent public service delivery.
+          </p>
+        </div>
+        <div class="footer-notice">
+          <strong>Citizen Transparency &amp; Security</strong><br>
+          This demo provides citizen reporting and credential-protected status tracking. Keep your copied reference private; do not submit sensitive personal information. Triage estimates need human review.
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 CivicResolve. All rights reserved.</span>
+        <span>Version 1.0 &bull; Connected to FastAPI Engine</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

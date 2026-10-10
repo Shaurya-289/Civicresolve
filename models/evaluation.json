@@ -1,0 +1,540 @@
+{
+  "data": {
+    "rows": 900,
+    "columns": [
+      "text",
+      "category",
+      "severity"
+    ],
+    "missing_values": {
+      "text": 0,
+      "category": 0,
+      "severity": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_texts": 0,
+    "category_counts": {
+      "road_damage": 180,
+      "streetlight": 180,
+      "drainage": 180,
+      "water_leak": 180,
+      "waste": 180
+    },
+    "severity_counts": {
+      "low": 300,
+      "medium": 300,
+      "high": 300
+    },
+    "joint_counts": {
+      "road_damage:low": 60,
+      "road_damage:medium": 60,
+      "road_damage:high": 60,
+      "streetlight:low": 60,
+      "streetlight:medium": 60,
+      "streetlight:high": 60,
+      "drainage:low": 60,
+      "drainage:medium": 60,
+      "drainage:high": 60,
+      "water_leak:low": 60,
+      "water_leak:medium": 60,
+      "water_leak:high": 60,
+      "waste:low": 60,
+      "waste:medium": 60,
+      "waste:high": 60
+    },
+    "word_count_range": [
+      12,
+      22
+    ],
+    "template_count_after_slot_removal": 45
+  },
+  "splits": {
+    "random_train": 720,
+    "random_test": 180,
+    "random_test_rows_sharing_template_with_train": 180,
+    "template_holdout_train": 588,
+    "template_holdout_test": 312,
+    "template_holdout_shared_templates": 0,
+    "novel_wording_test": 15
+  },
+  "evaluation": {
+    "category": {
+      "random_holdout": {
+        "count": 180,
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "f1_macro": 1.0,
+        "labels": [
+          "road_damage",
+          "streetlight",
+          "drainage",
+          "water_leak",
+          "waste"
+        ],
+        "confusion_matrix": [
+          [
+            36,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            36,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            36,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            36
+          ]
+        ],
+        "per_class": {
+          "road_damage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 36.0
+          },
+          "streetlight": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 36.0
+          },
+          "drainage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 36.0
+          },
+          "water_leak": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 36.0
+          },
+          "waste": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 36.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 180.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 180.0
+          }
+        }
+      },
+      "template_holdout": {
+        "count": 312,
+        "accuracy": 0.5288461538461539,
+        "precision_macro": 0.4491231925968767,
+        "recall_macro": 0.5349999999999999,
+        "f1_macro": 0.46574557315936627,
+        "labels": [
+          "road_damage",
+          "streetlight",
+          "drainage",
+          "water_leak",
+          "waste"
+        ],
+        "confusion_matrix": [
+          [
+            27,
+            24,
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            36,
+            0,
+            24,
+            0
+          ],
+          [
+            12,
+            0,
+            0,
+            24,
+            24
+          ],
+          [
+            0,
+            12,
+            0,
+            45,
+            3
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            57
+          ]
+        ],
+        "per_class": {
+          "road_damage": {
+            "precision": 0.6923076923076923,
+            "recall": 0.375,
+            "f1-score": 0.4864864864864865,
+            "support": 72.0
+          },
+          "streetlight": {
+            "precision": 0.48,
+            "recall": 0.6,
+            "f1-score": 0.5333333333333333,
+            "support": 60.0
+          },
+          "drainage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 60.0
+          },
+          "water_leak": {
+            "precision": 0.39473684210526316,
+            "recall": 0.75,
+            "f1-score": 0.5172413793103449,
+            "support": 60.0
+          },
+          "waste": {
+            "precision": 0.6785714285714286,
+            "recall": 0.95,
+            "f1-score": 0.7916666666666666,
+            "support": 60.0
+          },
+          "accuracy": 0.5288461538461539,
+          "macro avg": {
+            "precision": 0.4491231925968767,
+            "recall": 0.5349999999999999,
+            "f1-score": 0.46574557315936627,
+            "support": 312.0
+          },
+          "weighted avg": {
+            "precision": 0.4584764425857543,
+            "recall": 0.5288461538461539,
+            "f1-score": 0.46654330059502475,
+            "support": 312.0
+          }
+        }
+      },
+      "novel_wording": {
+        "count": 15,
+        "accuracy": 0.8666666666666667,
+        "precision_macro": 0.9,
+        "recall_macro": 0.8666666666666666,
+        "f1_macro": 0.8628571428571428,
+        "labels": [
+          "road_damage",
+          "streetlight",
+          "drainage",
+          "water_leak",
+          "waste"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "per_class": {
+          "road_damage": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "streetlight": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 3.0
+          },
+          "drainage": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "water_leak": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 3.0
+          },
+          "waste": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1-score": 0.8571428571428571,
+            "support": 3.0
+          },
+          "accuracy": 0.8666666666666667,
+          "macro avg": {
+            "precision": 0.9,
+            "recall": 0.8666666666666666,
+            "f1-score": 0.8628571428571428,
+            "support": 15.0
+          },
+          "weighted avg": {
+            "precision": 0.9,
+            "recall": 0.8666666666666667,
+            "f1-score": 0.8628571428571429,
+            "support": 15.0
+          }
+        }
+      }
+    },
+    "severity": {
+      "random_holdout": {
+        "count": 180,
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "f1_macro": 1.0,
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "confusion_matrix": [
+          [
+            60,
+            0,
+            0
+          ],
+          [
+            0,
+            60,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ],
+        "per_class": {
+          "low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 60.0
+          },
+          "medium": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 60.0
+          },
+          "high": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 60.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 180.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 180.0
+          }
+        }
+      },
+      "template_holdout": {
+        "count": 312,
+        "accuracy": 0.9711538461538461,
+        "precision_macro": 0.973861741695524,
+        "recall_macro": 0.9746913580246913,
+        "f1_macro": 0.9736715487211071,
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "confusion_matrix": [
+          [
+            112,
+            8,
+            0
+          ],
+          [
+            1,
+            107,
+            0
+          ],
+          [
+            0,
+            0,
+            84
+          ]
+        ],
+        "per_class": {
+          "low": {
+            "precision": 0.9911504424778761,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.9613733905579399,
+            "support": 120.0
+          },
+          "medium": {
+            "precision": 0.9304347826086956,
+            "recall": 0.9907407407407407,
+            "f1-score": 0.9596412556053812,
+            "support": 108.0
+          },
+          "high": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 84.0
+          },
+          "accuracy": 0.9711538461538461,
+          "macro avg": {
+            "precision": 0.973861741695524,
+            "recall": 0.9746913580246913,
+            "f1-score": 0.9736715487211071,
+            "support": 312.0
+          },
+          "weighted avg": {
+            "precision": 0.9725160564714239,
+            "recall": 0.9711538461538461,
+            "f1-score": 0.9711732771549165,
+            "support": 312.0
+          }
+        }
+      },
+      "novel_wording": {
+        "count": 15,
+        "accuracy": 0.7333333333333333,
+        "precision_macro": 0.7388888888888889,
+        "recall_macro": 0.7333333333333334,
+        "f1_macro": 0.7313131313131312,
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "confusion_matrix": [
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            1,
+            3
+          ]
+        ],
+        "per_class": {
+          "low": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1-score": 0.8,
+            "support": 5.0
+          },
+          "medium": {
+            "precision": 0.6666666666666666,
+            "recall": 0.8,
+            "f1-score": 0.7272727272727273,
+            "support": 5.0
+          },
+          "high": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1-score": 0.6666666666666666,
+            "support": 5.0
+          },
+          "accuracy": 0.7333333333333333,
+          "macro avg": {
+            "precision": 0.7388888888888889,
+            "recall": 0.7333333333333334,
+            "f1-score": 0.7313131313131312,
+            "support": 15.0
+          },
+          "weighted avg": {
+            "precision": 0.7388888888888888,
+            "recall": 0.7333333333333333,
+            "f1-score": 0.7313131313131312,
+            "support": 15.0
+          }
+        }
+      }
+    }
+  }
+}
