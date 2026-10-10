@@ -2,10 +2,11 @@
 
 import argparse
 import getpass
+import os
 import sys
 from pathlib import Path
 
-from dotenv import load_dotenv
+from dotenv import dotenv_values
 
 
 def main() -> None:
@@ -13,7 +14,13 @@ def main() -> None:
     parser.add_argument("--admin-only", action="store_true", help="create the first admin after schema setup")
     args = parser.parse_args()
 
-    load_dotenv(Path(__file__).resolve().parent.parent / ".env.vercel.local", override=False)
+    env_file = Path(__file__).resolve().parent.parent / ".env.vercel.local"
+    if not env_file.is_file():
+        sys.exit("Pull the Vercel Production environment into .env.vercel.local first")
+    database_url = dotenv_values(env_file).get("DATABASE_URL")
+    if not database_url:
+        sys.exit("The pulled Production environment has no DATABASE_URL")
+    os.environ["DATABASE_URL"] = database_url
 
     from sqlalchemy import inspect
     from app.database import SessionLocal, engine, initialize_database, verify_database_ready

@@ -53,7 +53,7 @@ npx vercel env pull .env.vercel.local --environment=production
 Remove-Item -LiteralPath .env.vercel.local
 ```
 
-The pulled environment file is Git-ignored and must stay private. If the schema was created but administrator creation failed, run `python -m app.bootstrap_postgres --admin-only` while the same environment file is still present. Do not run bootstrap from a Vercel function or repeat it on a database that already contains records.
+The pulled environment file is Git-ignored and must stay private. Bootstrap reads `DATABASE_URL` from that file even if this terminal has another value. If the schema was created but administrator creation failed, run `.\.venv\Scripts\python.exe -m app.bootstrap_postgres --admin-only` while the same environment file is still present. Do not run bootstrap from a Vercel function or repeat it on a database that already contains records.
 
 After bootstrap, redeploy the latest `main` commit in Vercel's **Deployments** page if the Git import deployed it earlier. Open the deployment URL and check the welcome page, citizen form, administrator login, and a synthetic complaint workflow. Existing local SQLite records are not migrated to Neon. Vercel's filesystem is read-only except for temporary scratch space, so persistent data lives only in Neon. The trained model and frontend files are bundled with the function; the model loads once per worker.
 
